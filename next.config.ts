@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "cdn-datak.motork.net",
+        pathname: "/configurator-icon/cars/**",
+      },
+      {
+        protocol: "https",
         hostname: "worldvectorlogo.com",
         pathname: "/svg/**",
       },
