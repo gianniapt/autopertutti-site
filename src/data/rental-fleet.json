@@ -1,6 +1,146 @@
 [
   {
-    "id": "lancia-ypsilon-1",
+    "id": "lancia-nuova-ypsilon-ibrida-nlt-0",
+    "category": "city",
+    "brand": "Lancia",
+    "model": "Nuova Ypsilon Ibrida",
+    "description": "Noleggio a lungo termine - Nuova Ypsilon Ibrida - Ibrido 110cv LX e-DCT",
+    "pricePerMonth": 210,
+    "pricePerDay": 7,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "Ibrido",
+    "transmission": "e-DCT",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/LANCIA/YPSILON-IBRIDA/44092_BERLINA-5-PORTE/lancia-ypsilon-side-view.png"
+  },
+  {
+    "id": "fiat-panda-nlt-1",
+    "category": "city",
+    "brand": "FIAT",
+    "model": "Panda",
+    "description": "Noleggio a lungo termine - Panda - 1.0 FireFly 70cv S&S Hybrid",
+    "pricePerMonth": 210,
+    "pricePerDay": 7,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "Hybrid",
+    "transmission": "N/A",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/FIAT/PANDA/40029_BERLINA-5-PORTE/fiat-panda-side-view.png"
+  },
+  {
+    "id": "hyundai-i10-nlt-2",
+    "category": "city",
+    "brand": "Hyundai",
+    "model": "i10",
+    "description": "Noleggio a lungo termine - i10 - 1.0 MPI Connectline",
+    "pricePerMonth": 250,
+    "pricePerDay": 8,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "N/A",
+    "transmission": "N/A",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/HYUNDAI/I10/42670_SUPERMINI-5-DOORS/hyundai-i10-side-view.png"
+  },
+  {
+    "id": "opel-corsa-nlt-3",
+    "category": "city",
+    "brand": "Opel",
+    "model": "Corsa",
+    "description": "Noleggio a lungo termine - Corsa - 1.2 100cv Edition MT6",
+    "pricePerMonth": 260,
+    "pricePerDay": 9,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "N/A",
+    "transmission": "N/A",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/OPEL/CORSA/43054_HATCHBACK-5-DOORS/opel-corsa-side-view.png"
+  },
+  {
+    "id": "renault-nuova-clio-nlt-4",
+    "category": "city",
+    "brand": "Renault",
+    "model": "Nuova Clio",
+    "description": "Noleggio a lungo termine - Nuova Clio - 1.0 SCe 49KW EVOLUTION",
+    "pricePerMonth": 260,
+    "pricePerDay": 9,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "N/A",
+    "transmission": "N/A",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/RENAULT/CLIO/42864_BERLINA-5-PORTE/renault-clio-side-view.png"
+  },
+  {
+    "id": "citroën-nuova-c3-nlt-5",
+    "category": "city",
+    "brand": "Citroën",
+    "model": "Nuova C3",
+    "description": "Noleggio a lungo termine - Nuova C3 - Turbo 100 cv Manuale PLUS",
+    "pricePerMonth": 279,
+    "pricePerDay": 9,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "N/A",
+    "transmission": "Manuale",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/CITROEN/C3/44275_HATCHBACK-5-DOORS/citroen-c3-side-view.png"
+  },
+  {
+    "id": "citroën-ë-c3-nlt-6",
+    "category": "city",
+    "brand": "Citroën",
+    "model": "ë-C3",
+    "description": "Noleggio a lungo termine - ë-C3 - Elettrico 113 cv Automatico MAX",
+    "pricePerMonth": 283,
+    "pricePerDay": 9,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "Elettrico",
+    "transmission": "Automatico",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/CITROEN/E-C3/43355_HATCHBACK-5-DOORS/citroen-ec3-side-view.png"
+  },
+  {
+    "id": "citroën-nuovo-c5-aircross-nlt-7",
+    "category": "suv",
+    "brand": "Citroën",
+    "model": "Nuovo C5 Aircross",
+    "description": "Noleggio a lungo termine - Nuovo C5 Aircross - BlueHDi 130 S&S Plus EAT8",
+    "pricePerMonth": 285,
+    "pricePerDay": 10,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "N/A",
+    "transmission": "EAT8",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/CITROEN/C5-AIRCROSS/40898_SUV-5-PORTE/citroen-c5-aircross-2022-side-view.png"
+  },
+  {
+    "id": "peugeot-nuova-208-nlt-8",
+    "category": "city",
+    "brand": "Peugeot",
+    "model": "Nuova 208",
+    "description": "Noleggio a lungo termine - Nuova 208 - Style PureTech 100 S/S",
+    "pricePerMonth": 287,
+    "pricePerDay": 10,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "N/A",
+    "transmission": "N/A",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/PEUGEOT/208/43022_HATCHBACK-5-DOORS/peugeot-208-side-view.png"
+  },
+  {
+    "id": "ford-nuova-puma-nlt-9",
+    "category": "suv",
+    "brand": "Ford",
+    "model": "Nuova Puma",
+    "description": "Noleggio a lungo termine - Nuova Puma - 1.0 Ecoboost Hybrid 125CV Titanium",
+    "pricePerMonth": 298,
+    "pricePerDay": 10,
+    "rentalType": "long",
+    "passengers": 5,
+    "fuel": "Hybrid",
+    "transmission": "N/A",
+    "image": "https://cdn-datak.motork.net/configurator-icon/cars/it/800/FORD/PUMA/44447_SUV-5-PORTE/ford-puma-side-view.png"
+  },
+  {
+    "id": "lancia-ypsilon-short-0",
     "category": "city",
     "brand": "Lancia",
     "model": "Ypsilon Ibrida",
@@ -14,7 +154,7 @@
     "rentalType": "short"
   },
   {
-    "id": "fiat-panda-1",
+    "id": "fiat-panda-short-1",
     "category": "city",
     "brand": "Fiat",
     "model": "Panda Hybrid",
@@ -28,7 +168,7 @@
     "rentalType": "short"
   },
   {
-    "id": "hyundai-i10-1",
+    "id": "hyundai-i10-short-2",
     "category": "city",
     "brand": "Hyundai",
     "model": "i10 Connectline",
@@ -42,7 +182,7 @@
     "rentalType": "short"
   },
   {
-    "id": "opel-corsa-1",
+    "id": "opel-corsa-short-3",
     "category": "city",
     "brand": "Opel",
     "model": "Corsa Edition",
@@ -56,7 +196,7 @@
     "rentalType": "short"
   },
   {
-    "id": "renault-clio-1",
+    "id": "renault-clio-short-4",
     "category": "city",
     "brand": "Renault",
     "model": "Clio Evolution",
@@ -70,7 +210,7 @@
     "rentalType": "short"
   },
   {
-    "id": "peugeot-208-1",
+    "id": "peugeot-208-short-5",
     "category": "city",
     "brand": "Peugeot",
     "model": "208 Style PureTech",
@@ -84,7 +224,7 @@
     "rentalType": "short"
   },
   {
-    "id": "ford-puma-1",
+    "id": "ford-puma-short-6",
     "category": "suv",
     "brand": "Ford",
     "model": "Puma Hybrid",
@@ -98,7 +238,7 @@
     "rentalType": "short"
   },
   {
-    "id": "jeep-renegade-1",
+    "id": "jeep-renegade-short-7",
     "category": "suv",
     "brand": "Jeep",
     "model": "Renegade",
@@ -112,7 +252,7 @@
     "rentalType": "short"
   },
   {
-    "id": "volkswagen-t-cross-1",
+    "id": "volkswagen-t-cross-short-8",
     "category": "suv",
     "brand": "Volkswagen",
     "model": "T-Cross",
@@ -126,7 +266,7 @@
     "rentalType": "short"
   },
   {
-    "id": "bmw-320-1",
+    "id": "bmw-320-short-9",
     "category": "premium",
     "brand": "BMW",
     "model": "320",
@@ -140,7 +280,7 @@
     "rentalType": "short"
   },
   {
-    "id": "audi-a4-1",
+    "id": "audi-a4-short-10",
     "category": "premium",
     "brand": "Audi",
     "model": "A4",
@@ -154,7 +294,7 @@
     "rentalType": "short"
   },
   {
-    "id": "fiat-ducato-1",
+    "id": "fiat-ducato-short-11",
     "category": "van",
     "brand": "Fiat",
     "model": "Ducato",
@@ -168,7 +308,7 @@
     "rentalType": "short"
   },
   {
-    "id": "renault-master-1",
+    "id": "renault-master-short-12",
     "category": "van",
     "brand": "Renault",
     "model": "Master",
