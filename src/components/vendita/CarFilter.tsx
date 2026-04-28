@@ -1,5 +1,6 @@
 "use client";
 
+// v2: Force rebuild with new car data
 import { useState, useMemo, useRef, useCallback } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { SlidersHorizontal, LayoutGrid, List, X } from "lucide-react";
