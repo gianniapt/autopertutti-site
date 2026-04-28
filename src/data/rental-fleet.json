@@ -10,7 +10,8 @@
     "passengers": 5,
     "fuel": "Ibrido",
     "transmission": "Automatico",
-    "image": "/rental/lancia-ypsilon.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/lancia-ypsilon-ibrid.jpg",
+    "rentalType": "short"
   },
   {
     "id": "fiat-panda-1",
@@ -23,7 +24,8 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "Manuale",
-    "image": "/rental/fiat-panda.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/fiat-panda-hybrid-1.jpg",
+    "rentalType": "short"
   },
   {
     "id": "hyundai-i10-1",
@@ -36,7 +38,8 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "/rental/hyundai-i10.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/hyundai-i10-connectl.jpg",
+    "rentalType": "short"
   },
   {
     "id": "opel-corsa-1",
@@ -49,7 +52,8 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "/rental/opel-corsa.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/opel-corsa-edition-3.jpg",
+    "rentalType": "short"
   },
   {
     "id": "renault-clio-1",
@@ -62,7 +66,8 @@
     "passengers": 5,
     "fuel": "Diesel",
     "transmission": "Manuale",
-    "image": "/rental/renault-clio.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/renault-clio-evoluti.jpg",
+    "rentalType": "short"
   },
   {
     "id": "peugeot-208-1",
@@ -75,7 +80,8 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "/rental/peugeot-208.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/peugeot-208-style-pu.jpg",
+    "rentalType": "short"
   },
   {
     "id": "ford-puma-1",
@@ -88,7 +94,8 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "Automatico",
-    "image": "/rental/ford-puma.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ford-puma-hybrid-6.jpg",
+    "rentalType": "short"
   },
   {
     "id": "jeep-renegade-1",
@@ -101,7 +108,8 @@
     "passengers": 5,
     "fuel": "Diesel",
     "transmission": "Automatico",
-    "image": "/rental/jeep-renegade.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/jeep-renegade-7.jpg",
+    "rentalType": "short"
   },
   {
     "id": "volkswagen-t-cross-1",
@@ -114,7 +122,8 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "/rental/vw-t-cross.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/volkswagen-t-cross-8.jpg",
+    "rentalType": "short"
   },
   {
     "id": "bmw-320-1",
@@ -127,7 +136,8 @@
     "passengers": 5,
     "fuel": "Diesel",
     "transmission": "Automatico",
-    "image": "/rental/bmw-320.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/bmw-320-9.jpg",
+    "rentalType": "short"
   },
   {
     "id": "audi-a4-1",
@@ -140,7 +150,8 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Automatico",
-    "image": "/rental/audi-a4.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/audi-a4-10.jpg",
+    "rentalType": "short"
   },
   {
     "id": "fiat-ducato-1",
@@ -153,7 +164,8 @@
     "passengers": 3,
     "fuel": "Diesel",
     "transmission": "Manuale",
-    "image": "/rental/fiat-ducato.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/fiat-ducato-11.jpg",
+    "rentalType": "short"
   },
   {
     "id": "renault-master-1",
@@ -166,6 +178,7 @@
     "passengers": 3,
     "fuel": "Diesel",
     "transmission": "Manuale",
-    "image": "/rental/renault-master.jpg"
+    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/renault-master-12.jpg",
+    "rentalType": "short"
   }
 ]
