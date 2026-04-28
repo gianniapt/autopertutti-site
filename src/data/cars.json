@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id":  "opel-mokka-1",
         "model":  "Mokka",
@@ -12,7 +12,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/kza0x7pxniWKrPgR.jpg",
+        "image":  "/cars/176a9378-2098-46f6-bb99-a11848aeda80.jpg",
         "color":  "Non specificato"
     },
     {
@@ -28,7 +28,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/AZ0BDS8hxMP6tI6k.jpg",
+        "image":  "/cars/131571e3-ae75-4611-ade3-90fe73a5bc15.jpg",
         "color":  "Non specificato"
     },
     {
@@ -44,7 +44,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/EMobscZguhTfH5AL.jpg",
+        "image":  "/cars/8757fb97-01be-4a10-9ef4-553749d18b2f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -60,7 +60,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/bV2CkbLOw7mcQSvr.jpg",
+        "image":  "/cars/b0a0095a-1fc5-4658-80bd-9e764a41f66e.jpg",
         "color":  "Non specificato"
     },
     {
@@ -76,7 +76,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/jLQ0kP3lfO3S7o0l.jpg",
+        "image":  "/cars/23e65fd4-dbf6-4f3f-8c03-028a512e2a80.jpg",
         "color":  "Non specificato"
     },
     {
@@ -92,7 +92,7 @@
         "location":  "Napoli",
         "body":  "Cabrio",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/6rNo3R0TXPgCQ4i0.jpg",
+        "image":  "/cars/b414b073-e16b-4939-922a-43bb205c00b6.jpg",
         "color":  "Non specificato"
     },
     {
@@ -104,11 +104,11 @@
         "year":  2019,
         "featured":  true,
         "price":  10500,
-        "brand":  "Е koda",
+        "brand":  "Škoda",
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/3hBPSLjXLym7BuNU.jpg",
+        "image":  "/cars/50b3a4ff-89f8-422c-b871-df51420891ac.jpg",
         "color":  "Nero"
     },
     {
@@ -124,7 +124,7 @@
         "location":  "Massa-Carrara",
         "body":  "Fuoristrada",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/v7WWvjHVu5TZtw4u.jpg",
+        "image":  "/cars/4510bcc3-7bec-44e3-a2bb-6aabd5a5d3c2.jpg",
         "color":  "Non specificato"
     },
     {
@@ -140,7 +140,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/fo8aaiSCEHCPvZFF.jpg",
+        "image":  "/cars/da529354-5067-4b3c-b68a-267c41f37f65.jpg",
         "color":  "Non specificato"
     },
     {
@@ -156,7 +156,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XzsWVLVd5Rm9UFL5.jpg",
+        "image":  "/cars/ad505dd9-d566-4b1d-9395-eeedcc7688db.jpg",
         "color":  "Non specificato"
     },
     {
@@ -172,7 +172,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/qpDArFiJylr2BhxH.jpg",
+        "image":  "/cars/fef851a5-d778-4caf-8fb7-06e25bbac257.jpg",
         "color":  "Non specificato"
     },
     {
@@ -188,7 +188,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/hBcv1xqFcVJiDm0a.jpg",
+        "image":  "/cars/0daf0907-8b5c-4b70-86a8-d4db9b8e1573.jpg",
         "color":  "Non specificato"
     },
     {
@@ -204,7 +204,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/rCnIl1ki36W278U5.jpg",
+        "image":  "/cars/f021d608-d7c1-4c98-9880-87859a86b0b9.jpg",
         "color":  "Non specificato"
     },
     {
@@ -220,7 +220,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ntS8evfKiZkRcX1U.jpg",
+        "image":  "/cars/28d4861e-8a17-413f-9559-56dc382189d0.jpg",
         "color":  "Non specificato"
     },
     {
@@ -236,7 +236,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gMxx0i7lg4TjiJbV.jpg",
+        "image":  "/cars/a1a50c8c-369d-45e0-8d6a-812181aac7f3.jpg",
         "color":  "Non specificato"
     },
     {
@@ -252,7 +252,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/HCLJuhjcdJ34qCoE.jpg",
+        "image":  "/cars/256f8a71-76f1-48f3-9af0-8525ce7b7949.jpg",
         "color":  "Non specificato"
     },
     {
@@ -268,7 +268,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/bHVklIx2zMtKNTqZ.jpg",
+        "image":  "/cars/0946d7d8-2f9d-485e-8f85-516bd4eec54b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -284,7 +284,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/dVw1lO2P5I27bDBz.jpg",
+        "image":  "/cars/2b49a34e-e26b-4563-9b9b-cb9e947ee70f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -300,7 +300,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gKbPmMFgmkBoFyBI.jpg",
+        "image":  "/cars/28d4d125-4846-4966-a261-08f38bc7088f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -316,7 +316,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/KMYUADDeiPxUJCHc.jpg",
+        "image":  "/cars/1bd2403d-8d45-4a61-8474-69476d3b9b81.jpg",
         "color":  "Non specificato"
     },
     {
@@ -332,7 +332,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/lCBL0Vl7ONBY6BlK.jpg",
+        "image":  "/cars/8dea8258-527c-4e33-a192-a5fc104bec0a.jpg",
         "color":  "Bianco"
     },
     {
@@ -348,7 +348,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/PqAhOaKsvtnK0D21.jpg",
+        "image":  "/cars/9e900550-2960-4abe-bc9e-992c836a17a9.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -364,7 +364,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8zUTfLt8ZFmKr57D.jpg",
+        "image":  "/cars/3d22d860-fdf1-48d8-8ead-6809796a9bff.jpg",
         "color":  "Non specificato"
     },
     {
@@ -380,7 +380,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QdKY4xdiZRM5WAFd.jpg",
+        "image":  "/cars/59b96486-f742-465c-be05-6a59a6093991.jpg",
         "color":  "Non specificato"
     },
     {
@@ -396,7 +396,7 @@
         "location":  "Napoli",
         "body":  "Fuoristrada",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/b8Hh7FFomUdBqBOo.jpg",
+        "image":  "/cars/8a803266-7367-4471-aa1f-858a38a6d928.jpg",
         "color":  "Non specificato"
     },
     {
@@ -412,7 +412,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/0vXRJpn2v15jv1fN.jpg",
+        "image":  "/cars/b6af1bc6-0bc5-40f5-9c78-825af82402c6.jpg",
         "color":  "Non specificato"
     },
     {
@@ -428,7 +428,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WgXeXOSpjPaGl8nm.jpg",
+        "image":  "/cars/e335ebb0-a00b-4bce-bfcf-d7427543c0ab.jpg",
         "color":  "Non specificato"
     },
     {
@@ -444,7 +444,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/45py1stdrLpCc0Nh.jpg",
+        "image":  "/cars/ed3cb6e9-a70d-49f1-bde5-a6053d995f52.jpg",
         "color":  "Non specificato"
     },
     {
@@ -460,7 +460,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/I5qSDbXojJDofDSt.jpg",
+        "image":  "/cars/53955ec5-6d21-4a17-85ef-2944a139c772.jpg",
         "color":  "Non specificato"
     },
     {
@@ -476,7 +476,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/sQGSXXpVHdyeU0wj.jpg",
+        "image":  "/cars/010f11c6-457f-4ebb-9a49-e18a775ac2bb.jpg",
         "color":  "Non specificato"
     },
     {
@@ -492,7 +492,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/Gq4359mL62TWYYct.jpg",
+        "image":  "/cars/5f691fc5-c5e6-4df3-af0e-e41cae3df0ba.jpg",
         "color":  "Non specificato"
     },
     {
@@ -508,7 +508,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/b1yx9tfy9FzuIMkR.jpg",
+        "image":  "/cars/386b6365-210d-4704-bf8d-6d18ad75b309.jpg",
         "color":  "Non specificato"
     },
     {
@@ -524,7 +524,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/up4IxD5ADnJujWp2.jpg",
+        "image":  "/cars/6d7544ee-9e5a-4abe-8ccd-5951e93d5e8e.jpg",
         "color":  "Non specificato"
     },
     {
@@ -540,7 +540,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UzedVLjhF1hTDSl6.jpg",
+        "image":  "/cars/5d21468a-0031-431e-9e81-88a32c68cbba.jpg",
         "color":  "Non specificato"
     },
     {
@@ -556,7 +556,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/NIjkoAR9r9AwcjaZ.jpg",
+        "image":  "/cars/b24022d6-7b98-49d4-b8c2-06db90b7c7bb.jpg",
         "color":  "Non specificato"
     },
     {
@@ -572,7 +572,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XLss2AixhslJwZ0d.jpg",
+        "image":  "/cars/4ee4819d-5169-4965-a950-bf8724c8f593.jpg",
         "color":  "Non specificato"
     },
     {
@@ -588,7 +588,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WwKhmog95wjFXBvq.jpg",
+        "image":  "/cars/8a0781b2-a8a4-4c01-bcb3-6c4e191d6160.jpg",
         "color":  "Non specificato"
     },
     {
@@ -604,7 +604,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/k4AQOJjELggAtEac.jpg",
+        "image":  "/cars/f68173e9-bc47-4046-aa16-a8ae8fe6accb.jpg",
         "color":  "Non specificato"
     },
     {
@@ -620,7 +620,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nkkkgMbKQDlpZsdC.jpg",
+        "image":  "/cars/24edad15-724a-4f99-b09a-e41bf142fcf9.jpg",
         "color":  "Non specificato"
     },
     {
@@ -636,7 +636,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/3vup0uXao0ziZyBm.jpg",
+        "image":  "/cars/04b06081-4ad1-40e6-bde9-814552f867be.jpg",
         "color":  "Non specificato"
     },
     {
@@ -652,7 +652,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/wEBEhpMVpqSeGFmZ.jpg",
+        "image":  "/cars/dd58e995-51de-4c89-9f51-f64fcb26cf16.jpg",
         "color":  "Non specificato"
     },
     {
@@ -668,7 +668,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/TseXogZuQmAT8j3P.jpg",
+        "image":  "/cars/2ba6ecdf-f815-442f-91c2-6276effabd7d.jpg",
         "color":  "Non specificato"
     },
     {
@@ -684,7 +684,7 @@
         "location":  "Carrara",
         "body":  "Monovolume",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/Yee6kjprQiZCP462.jpg",
+        "image":  "/cars/1de717e1-db79-47c3-88fb-2dd149a72dff.jpg",
         "color":  "Nero"
     },
     {
@@ -700,7 +700,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/S6QYIw6HJFZqhU03.jpg",
+        "image":  "/cars/18608c17-e5df-4676-aa88-322ebd953e65.jpg",
         "color":  "Non specificato"
     },
     {
@@ -712,11 +712,11 @@
         "year":  2016,
         "featured":  false,
         "price":  8500,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/PXSR69qrr3jfSzMx.jpg",
+        "image":  "/cars/1accd3bc-1b9e-4a63-a91b-caf1861a0e9d.jpg",
         "color":  "Bianco"
     },
     {
@@ -732,7 +732,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/84uVO3l0TOxsOtzu.jpg",
+        "image":  "/cars/109cb0a2-4b9c-4204-8565-d1d84d5b5584.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -748,7 +748,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/BJzXkSeuOBfU3C0E.jpg",
+        "image":  "/cars/cf17028f-11f9-4297-9e9c-58600a5defba.jpg",
         "color":  "Nero"
     },
     {
@@ -764,7 +764,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/lpLYS6OICriNBDvx.jpg",
+        "image":  "/cars/d44a60e0-624d-462b-89f5-c85fd9572c48.jpg",
         "color":  "Nero"
     },
     {
@@ -780,7 +780,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/K5pNc4af51foltLU.jpg",
+        "image":  "/cars/d123ba66-8a58-4fd1-b398-38380302bcf2.jpg",
         "color":  "Grigio"
     },
     {
@@ -796,7 +796,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/nAwhwKxM8ZpVVDnT.jpg",
+        "image":  "/cars/4a5f23fc-ac9b-459e-ac0b-638ddf72e487.jpg",
         "color":  "Unknown"
     },
     {
@@ -812,7 +812,7 @@
         "location":  "Agnano",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/MECMKoE2yt80hFQQ.jpg",
+        "image":  "/cars/8754fecc-b772-42d9-acb9-34e093e0c6e3.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -828,7 +828,7 @@
         "location":  "Agnano",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/5wq5maQfjaBAGRGO.jpg",
+        "image":  "/cars/1999703e-1c7a-4361-b17d-7a2c626141f9.jpg",
         "color":  "Bianco"
     },
     {
@@ -844,7 +844,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/sQGSXXpVHdyeU0wj.jpg",
+        "image":  "/cars/b743c9e4-7af5-415b-8d4b-8cd13167ccef.jpg",
         "color":  "N/A"
     },
     {
@@ -860,7 +860,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gMxx0i7lg4TjiJbV.jpg",
+        "image":  "/cars/6b3c4f25-adcb-47ac-bcbb-303504134869.jpg",
         "color":  "N/A"
     },
     {
@@ -876,7 +876,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/C3lZf4g67ZU00sXo.jpg",
+        "image":  "/cars/83353d39-f1c7-42ef-aff3-a012e1a375ca.jpg",
         "color":  "N/A"
     },
     {
@@ -892,7 +892,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/HCLJuhjcdJ34qCoE.jpg",
+        "image":  "/cars/2e502b94-1f30-4b9f-83e1-1e95bc1af6fa.jpg",
         "color":  "N/A"
     },
     {
@@ -908,7 +908,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/faxe8R0qXbYSkyyS.jpg",
+        "image":  "/cars/1bb64b50-bb8e-43ec-87a2-974684024a50.jpg",
         "color":  "N/A"
     },
     {
@@ -924,7 +924,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/8tqswoQEncTc4J61.jpg",
+        "image":  "/cars/06d191e1-7560-47e5-9ecb-c9546ad00552.jpg",
         "color":  "Bianco"
     },
     {
@@ -940,7 +940,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/fBJmNdUfETWKbsgA.jpg",
+        "image":  "/cars/d63bb42f-c8d6-4f84-b40d-d313e80054fd.jpg",
         "color":  "Non specificato"
     },
     {
@@ -956,7 +956,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/TRJA3C71Qp86Pk1F.jpg",
+        "image":  "/cars/e6fe19ed-ffc5-4704-abea-3ca8db176a44.jpg",
         "color":  "Bianco"
     },
     {
@@ -972,7 +972,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/DlZ2041fiRtufQnt.jpg",
+        "image":  "/cars/c3de5860-db81-4847-9320-9ae2a65c11b3.jpg",
         "color":  "(Not Specified)"
     },
     {
@@ -988,7 +988,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/Fg4nkUkZlXHSDWSI.png",
+        "image":  "/cars/87b9a630-46be-4343-83ed-b499126aaf53.jpg",
         "color":  "Not Specified"
     },
     {
@@ -1004,7 +1004,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/I4mtCFAw0hFH3Wm3.png",
+        "image":  "/cars/fc6424dc-d731-41d1-b58d-99574b903da5.jpg",
         "color":  "N/A"
     },
     {
@@ -1020,7 +1020,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/JVM1KxXUprIuet7s.jpg",
+        "image":  "/cars/d67df708-bc03-467f-be21-84f90e394f03.jpg",
         "color":  "Nero"
     },
     {
@@ -1036,7 +1036,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ABgt2uZSDwTOyHfE.jpg",
+        "image":  "/cars/d7fc08a2-385a-4972-8414-e21b4b5df887.jpg",
         "color":  "Bianco"
     },
     {
@@ -1052,7 +1052,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/9ZB5iOm3V19QKs94.jpg",
+        "image":  "/cars/b7e17a8c-7fbe-4b1f-b593-ba7dc2b9a3d4.jpg",
         "color":  "Blu"
     },
     {
@@ -1068,7 +1068,7 @@
         "location":  "Napoli",
         "body":  "Monovolume",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/aLL5Aka8tQkEIB70.jpg",
+        "image":  "/cars/fe1ca1bc-bc72-48b3-853f-39e5d6173fcd.jpg",
         "color":  "Nero"
     },
     {
@@ -1084,7 +1084,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/HpF6VTqKxPR3uMXP.jpg",
+        "image":  "/cars/ef8eefa6-7c80-412e-8a17-68bba8457211.jpg",
         "color":  "Bianco"
     },
     {
@@ -1100,7 +1100,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/2Iv5AqoFWtqyH5rr.jpg",
+        "image":  "/cars/0e33ed07-2749-4a8f-a089-ac2a5a0705a0.jpg",
         "color":  "Bianco"
     },
     {
@@ -1116,7 +1116,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/BAwTVrv9JGnVWpNo.jpg",
+        "image":  "/cars/de00f263-ecbb-49b4-8a04-e2a34f3ccd7e.jpg",
         "color":  "N/A"
     },
     {
@@ -1132,7 +1132,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/3134XbvYHkGhnk8C.jpg",
+        "image":  "/cars/7e685cdd-0304-4906-b31a-37bc49c142f9.jpg",
         "color":  "Blu"
     },
     {
@@ -1148,7 +1148,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ovlpEM1fw0DzpGCE.jpg",
+        "image":  "/cars/d98aafc2-8360-441e-a9ed-130f4e502bad.jpg",
         "color":  "Rosso"
     },
     {
@@ -1164,7 +1164,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/JuLU32AnB2qeEtbs.jpg",
+        "image":  "/cars/cc2c5824-e77e-4937-a8eb-594d7b07a757.jpg",
         "color":  "Blu"
     },
     {
@@ -1180,7 +1180,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/HlMQ0ZsA2ONguHAx.jpg",
+        "image":  "/cars/2b0a23ab-1c85-4fdc-ba15-aef63967ad4b.jpg",
         "color":  "Blu"
     },
     {
@@ -1196,7 +1196,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/rXbNn9XwpZcRRCtq.jpg",
+        "image":  "/cars/2e7155bd-a1f6-46a5-96c6-064bb54a9929.jpg",
         "color":  "Blu"
     },
     {
@@ -1212,7 +1212,7 @@
         "location":  "Carrara",
         "body":  "Furgone - Van",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/uP6fVqY5pjdUcNed.jpg",
+        "image":  "/cars/36e65edc-efab-4b0a-a3bc-2f3b2b383205.jpg",
         "color":  "Bianco"
     },
     {
@@ -1224,11 +1224,11 @@
         "year":  2024,
         "featured":  false,
         "price":  17500,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/KL29aXaLBpxr1ICT.jpg",
+        "image":  "/cars/1e941fa9-a084-4ee6-b27e-b9b4fddb057f.jpg",
         "color":  "Blu"
     },
     {
@@ -1240,11 +1240,11 @@
         "year":  2024,
         "featured":  false,
         "price":  17500,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/wT3xauZ1Xx0Dl4kU.jpg",
+        "image":  "/cars/f312383e-175b-43aa-b9ba-6b5157c7362f.jpg",
         "color":  "Blu"
     },
     {
@@ -1256,11 +1256,11 @@
         "year":  2021,
         "featured":  false,
         "price":  15950,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ypAjBYEeA1I6huyR.jpg",
+        "image":  "/cars/8bdd7afe-d995-4841-a65f-e3df940337d0.jpg",
         "color":  "Nero"
     },
     {
@@ -1272,11 +1272,11 @@
         "year":  2025,
         "featured":  false,
         "price":  16900,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/oKHD9JfP1qI6mi5S.jpg",
+        "image":  "/cars/d1d3bad3-968f-4aeb-a5ea-bfb8de8f261d.jpg",
         "color":  "Blu"
     },
     {
@@ -1288,11 +1288,11 @@
         "year":  2024,
         "featured":  false,
         "price":  12950,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/3IfV6sMW852KJbdG.jpg",
+        "image":  "/cars/13345b44-994c-4f01-987a-9f90e84ef808.jpg",
         "color":  "Blu"
     },
     {
@@ -1308,7 +1308,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/QRGgtVTgEyizGohr.jpg",
+        "image":  "/cars/e7070f09-bb38-4241-8993-3d0ca339663a.jpg",
         "color":  "Grigio"
     },
     {
@@ -1324,7 +1324,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/WeZyJnT2dX7yrrjO.jpg",
+        "image":  "/cars/e689a2b9-b283-4003-ac97-1c5756286cb8.jpg",
         "color":  "Nero"
     },
     {
@@ -1340,7 +1340,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/MUFk2kOMlnMq1K6x.jpg",
+        "image":  "/cars/0d008885-1927-4191-aa77-097b3d3a417d.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -1356,7 +1356,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/RIM52AQDfzwVCI1A.jpg",
+        "image":  "/cars/bdec09f0-9962-43f2-915b-0371ae433f12.jpg",
         "color":  "Nero"
     },
     {
@@ -1368,11 +1368,11 @@
         "year":  2024,
         "featured":  false,
         "price":  12950,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/wpgF0bzAsRw9XfMi.jpg",
+        "image":  "/cars/d54090b1-ba9d-489d-828b-dcc9980bb874.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -1388,7 +1388,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/RQ3Or1wJJyy1E8b8.jpg",
+        "image":  "/cars/105ce583-6cbc-4ab6-ae9b-386f9c58e8cc.jpg",
         "color":  "Blu"
     },
     {
@@ -1404,7 +1404,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/UUICj2395POvzoAU.jpg",
+        "image":  "/cars/06fcba73-17ba-4170-abce-04737accc2f5.jpg",
         "color":  "Bronzo"
     },
     {
@@ -1416,11 +1416,11 @@
         "year":  2024,
         "featured":  false,
         "price":  12950,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/RIYoN4UEwYeMkC7C.jpg",
+        "image":  "/cars/dcfb214a-ddda-472b-a2eb-8fdfb46a1434.jpg",
         "color":  "Nero"
     },
     {
@@ -1436,7 +1436,7 @@
         "location":  "Carrara",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/9CxRZTfaefYFtZ1b.jpg",
+        "image":  "/cars/b95dc8f6-613b-49e3-9ca7-295d20a938b9.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -1448,11 +1448,11 @@
         "year":  2024,
         "featured":  false,
         "price":  12950,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/3IfV6sMW852KJbdG.jpg",
+        "image":  "/cars/810b639c-6e93-4fe1-b38b-2328050436bc.jpg",
         "color":  "Nero"
     },
     {
@@ -1468,7 +1468,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8zUTfLt8ZFmKr57D.jpg",
+        "image":  "/cars/d3ae1264-ee26-4e96-9c77-bea341d81e06.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1484,7 +1484,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QdKY4xdiZRM5WAFd.jpg",
+        "image":  "/cars/37ec5b4e-552a-4afa-9c33-52664c2c3d4b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1500,7 +1500,7 @@
         "location":  "Napoli",
         "body":  "Fuoristrada",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/b8Hh7FFomUdBqBOo.jpg",
+        "image":  "/cars/a625b61d-31f6-44b3-bd80-1bc1b8ba6e3b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1516,7 +1516,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/0vXRJpn2v15jv1fN.jpg",
+        "image":  "/cars/451deb0b-f7eb-4d82-93f5-c83c4a55c089.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1532,7 +1532,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WgXeXOSpjPaGl8nm.jpg",
+        "image":  "/cars/a36c653e-937c-439d-88e9-ad9e12c416d3.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1548,7 +1548,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/45py1stdrLpCc0Nh.jpg",
+        "image":  "/cars/b9d49b0c-e1e3-490c-97cf-77c838edd7e7.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1564,7 +1564,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/I5qSDbXojJDofDSt.jpg",
+        "image":  "/cars/2bccf023-3b46-46ec-a027-3b4e6f45e238.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1580,7 +1580,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/sQGSXXpVHdyeU0wj.jpg",
+        "image":  "/cars/1e777f88-8862-4ccf-9276-a60813d4d74c.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1596,7 +1596,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/Gq4359mL62TWYYct.jpg",
+        "image":  "/cars/f9c3afeb-136a-4449-a25d-6cb304b2268d.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1612,7 +1612,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/b1yx9tfy9FzuIMkR.jpg",
+        "image":  "/cars/14cd8640-b662-4e4d-90b8-b50cf77cda2a.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1628,7 +1628,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/up4IxD5ADnJujWp2.jpg",
+        "image":  "/cars/fcf222c4-318f-4fd1-ba42-2e97e4e8c0b5.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1644,7 +1644,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UzedVLjhF1hTDSl6.jpg",
+        "image":  "/cars/88899604-1b95-46de-aaea-82b461805327.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1660,7 +1660,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/NIjkoAR9r9AwcjaZ.jpg",
+        "image":  "/cars/d03f43ca-d120-45ed-8b17-626d148c9615.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1676,7 +1676,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XLss2AixhslJwZ0d.jpg",
+        "image":  "/cars/32b2b815-08cb-4147-b03f-b1cb777007b9.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1692,7 +1692,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WwKhmog95wjFXBvq.jpg",
+        "image":  "/cars/fa7f5f06-1e7f-4620-8102-010043dd8668.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1708,7 +1708,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/k4AQOJjELggAtEac.jpg",
+        "image":  "/cars/da87bd66-88c9-46d3-afd2-ffc30b7d4caf.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1724,7 +1724,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nkkkgMbKQDlpZsdC.jpg",
+        "image":  "/cars/0db41924-9d7d-45fe-a877-d0100ae28788.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1740,7 +1740,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/3vup0uXao0ziZyBm.jpg",
+        "image":  "/cars/260b8df9-eccc-454d-b382-1b1431e054b6.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1756,7 +1756,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/wEBEhpMVpqSeGFmZ.jpg",
+        "image":  "/cars/e05844b6-a7ae-4b07-a8f4-64637410398b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1772,7 +1772,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/TseXogZuQmAT8j3P.jpg",
+        "image":  "/cars/e1165c5b-ab39-4520-ae9f-ea31be05916f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1788,7 +1788,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/lCBL0Vl7ONBY6BlK.jpg",
+        "image":  "/cars/37d5d04c-710a-44ae-8f58-4c0929f53acc.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1804,7 +1804,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/lCBL0Vl7ONBY6BlK.jpg",
+        "image":  "/cars/6937e7b5-4a21-4062-b991-3172f4b7046b.jpg",
         "color":  "N/A"
     },
     {
@@ -1820,7 +1820,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/lCBL0Vl7ONBY6BlK.jpg",
+        "image":  "/cars/ca28f77b-0c5e-4692-b0a6-37f6be8c98e1.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1836,7 +1836,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QdKY4xdiZRM5WAFd.jpg",
+        "image":  "/cars/e0bf3e22-f8cb-4ef6-802a-c4df54d84791.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1852,7 +1852,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/I5qSDbXojJDofDSt.jpg",
+        "image":  "/cars/010f664f-a3e4-4e5e-9d1c-7543db9f122a.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1868,7 +1868,7 @@
         "location":  "Massa-Carrara",
         "body":  "Fuoristrada",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/v7WWvjHVu5TZtw4u.jpg",
+        "image":  "/cars/c7dec391-9fb0-4520-a06d-a4d7688933fb.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1884,7 +1884,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XzsWVLVd5Rm9UFL5.jpg",
+        "image":  "/cars/43f1d3aa-a150-4d41-8e12-3e8ff91a7c13.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1900,7 +1900,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ntS8evfKiZkRcX1U.jpg",
+        "image":  "/cars/ce37eae8-d8e0-4aed-a557-d9b62a671d11.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1916,7 +1916,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gMxx0i7lg4TjiJbV.jpg",
+        "image":  "/cars/f582df03-6969-412e-abfc-09c47e7a960f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1932,7 +1932,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/JNyKnRcQGxvjARsw.jpg",
+        "image":  "/cars/2068f7fc-2941-4527-93ef-fcf5d94c2e0f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1948,7 +1948,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ZFsG95UBSAphywQW.jpg",
+        "image":  "/cars/3fcc554f-3b08-4503-a756-c1c6d45fa52f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1964,7 +1964,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MnQBw6GFdx2tD2tB.jpg",
+        "image":  "/cars/14297f05-a775-4de9-b44d-ad9aeabf7e53.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1980,7 +1980,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/iW4VPJPI91u4MbgB.jpg",
+        "image":  "/cars/a85daacd-9c80-4fbd-8f22-05428677b00d.jpg",
         "color":  "Non specificato"
     },
     {
@@ -1996,7 +1996,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gHmXDLGE97s5nnfk.jpg",
+        "image":  "/cars/c102dd0e-85f9-4d6e-96e2-a69693f31097.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2012,7 +2012,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/HpF6VTqKxPR3uMXP.jpg",
+        "image":  "/cars/9455e560-4d1f-4530-8db7-492f5567ca7e.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2028,7 +2028,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/522x9dhoHcW5mgLw.png",
+        "image":  "/cars/63355940-d90f-4f64-bb5e-53c9e70f6aa6.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2044,7 +2044,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/TRJA3C71Qp86Pk1F.jpg",
+        "image":  "/cars/6cac47af-bfcb-4387-b8c4-a61626981f17.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2060,7 +2060,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8cXdMnrUd2HKOYHA.jpg",
+        "image":  "/cars/00e35838-c312-4422-8c82-2a2b3afc0782.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2076,7 +2076,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/l3bBdmBdW5QKKnc9.jpg",
+        "image":  "/cars/52d0ac86-a3fd-4009-b373-c8d5cbd6d6a6.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2092,7 +2092,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MTWfBQiJGounQrSF.jpg",
+        "image":  "/cars/61aff650-1556-4b3d-ae52-2a84ae6b2071.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2108,7 +2108,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ytTR6pTn5hu5HwJL.jpg",
+        "image":  "/cars/6d0f461c-c060-46df-a882-529f4986d56b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2124,7 +2124,7 @@
         "location":  "Massa-Carrara",
         "body":  "Station Wagon",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/D8vFwZCGqcuc57pE.jpg",
+        "image":  "/cars/220035fe-8e53-4c48-b75d-b526766cb8b5.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2140,7 +2140,7 @@
         "location":  "Massa-Carrara",
         "body":  "Fuoristrada",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WboQ8ABb4Rw9Xbtz.jpg",
+        "image":  "/cars/38d964a8-27fd-422c-b254-1f668ac92e4f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2156,7 +2156,7 @@
         "location":  "Agnano",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/XlxDKPR1PB9sfPvT.jpg",
+        "image":  "/cars/818454b8-3768-4725-a0d2-12bd66850fda.jpg",
         "color":  "Grigio"
     },
     {
@@ -2172,7 +2172,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/MTWfBQiJGounQrSF.jpg",
+        "image":  "/cars/1189896e-5212-4563-a611-daa582acc0d5.jpg",
         "color":  "Undefined"
     },
     {
@@ -2188,7 +2188,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8zUTfLt8ZFmKr57D.jpg",
+        "image":  "/cars/0083815d-f4eb-4dc2-8336-e5635b437e4b.jpg",
         "color":  "N/A"
     },
     {
@@ -2204,7 +2204,7 @@
         "location":  "Napoli",
         "body":  "Fuoristrada",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/b8Hh7FFomUdBqBOo.jpg",
+        "image":  "/cars/a2cdaf1f-7fa6-4d59-aeab-8644c3797f94.jpg",
         "color":  "N/A"
     },
     {
@@ -2220,7 +2220,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/0vXRJpn2v15jv1fN.jpg",
+        "image":  "/cars/90cf95a2-052a-482f-9dd4-b7b60fb931e6.jpg",
         "color":  "N/A"
     },
     {
@@ -2236,7 +2236,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WgXeXOSpjPaGl8nm.jpg",
+        "image":  "/cars/57cb8043-a4a4-41dc-927a-935356bf8690.jpg",
         "color":  "N/A"
     },
     {
@@ -2252,7 +2252,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/45py1stdrLpCc0Nh.jpg",
+        "image":  "/cars/7cf862bc-8bea-4870-a02b-f1932b0e9bc8.jpg",
         "color":  "N/A"
     },
     {
@@ -2268,7 +2268,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/sQGSXXpVHdyeU0wj.jpg",
+        "image":  "/cars/420ca65d-5eb2-4b90-aca4-8701ab263b16.jpg",
         "color":  "N/A"
     },
     {
@@ -2284,7 +2284,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/Gq4359mL62TWYYct.jpg",
+        "image":  "/cars/011099d7-230d-4947-b350-bcbd2cfb9697.jpg",
         "color":  "N/A"
     },
     {
@@ -2300,7 +2300,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/b1yx9tfy9FzuIMkR.jpg",
+        "image":  "/cars/f1e8db60-815b-453a-9bf5-f72f9dd46d4d.jpg",
         "color":  "N/A"
     },
     {
@@ -2316,7 +2316,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/up4IxD5ADnJujWp2.jpg",
+        "image":  "/cars/ac000d81-d8f9-4986-bac8-12e2864597b9.jpg",
         "color":  "N/A"
     },
     {
@@ -2332,7 +2332,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UzedVLjhF1hTDSl6.jpg",
+        "image":  "/cars/f0495e40-18c2-44ef-a198-8e6caf7c475a.jpg",
         "color":  "N/A"
     },
     {
@@ -2348,7 +2348,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/NIjkoAR9r9AwcjaZ.jpg",
+        "image":  "/cars/6142a0c1-e6e6-4993-9498-07fa08832ae9.jpg",
         "color":  "N/A"
     },
     {
@@ -2364,7 +2364,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XLss2AixhslJwZ0d.jpg",
+        "image":  "/cars/99a546ac-400f-425b-adda-aa81ca361e52.jpg",
         "color":  "N/A"
     },
     {
@@ -2380,7 +2380,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WwKhmog95wjFXBvq.jpg",
+        "image":  "/cars/57fb7a74-2c66-4a42-b3a2-7e2aef41892b.jpg",
         "color":  "N/A"
     },
     {
@@ -2396,7 +2396,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/k4AQOJjELggAtEac.jpg",
+        "image":  "/cars/f944fa38-d6da-4964-ad65-d6f7a1c44ca5.jpg",
         "color":  "N/A"
     },
     {
@@ -2412,7 +2412,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nkkkgMbKQDlpZsdC.jpg",
+        "image":  "/cars/4e174ccd-7f36-4dbb-8d23-282b25e2000b.jpg",
         "color":  "N/A"
     },
     {
@@ -2428,7 +2428,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/3vup0uXao0ziZyBm.jpg",
+        "image":  "/cars/80c0010a-93b2-49fa-9328-deebf163b00f.jpg",
         "color":  "N/A"
     },
     {
@@ -2444,7 +2444,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ytTR6pTn5hu5HwJL.jpg",
+        "image":  "/cars/4498ba8f-d5dd-4c06-8f9e-c35b3644e688.jpg",
         "color":  "Unknown"
     },
     {
@@ -2460,7 +2460,7 @@
         "location":  "Carrara",
         "body":  "Station Wagon",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/D8vFwZCGqcuc57pE.jpg",
+        "image":  "/cars/5911d2b1-7c2e-48ad-868e-51c575038edf.jpg",
         "color":  "Grigio"
     },
     {
@@ -2476,7 +2476,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/GKARveymU4qRbRz1.jpg",
+        "image":  "/cars/7f3590bc-6c58-4f5b-93cc-f93e7e8f0814.jpg",
         "color":  "Grigio"
     },
     {
@@ -2492,7 +2492,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/l3bBdmBdW5QKKnc9.jpg",
+        "image":  "/cars/357ee1e8-654c-4157-a254-d7766c3e6718.jpg",
         "color":  "Bianco"
     },
     {
@@ -2508,7 +2508,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/8cXdMnrUd2HKOYHA.jpg",
+        "image":  "/cars/b931540c-e5aa-43f2-85a1-1ebadd690086.jpg",
         "color":  "Nero"
     },
     {
@@ -2524,7 +2524,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/X9pRQrxqNMTNs4m9.jpg",
+        "image":  "/cars/7027df59-b335-4df3-bfdf-67aa43e614a9.jpg",
         "color":  "Argento"
     },
     {
@@ -2540,7 +2540,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/rh0PfuOX3tT4TNBO.jpg",
+        "image":  "/cars/51d18fa6-24f6-4321-89ae-d85bf898f551.jpg",
         "color":  "Grigio"
     },
     {
@@ -2556,7 +2556,7 @@
         "location":  "Agnano",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/9D3u458bxLpOIrHa.jpg",
+        "image":  "/cars/c2754bd4-eee5-4438-94c9-f0e343f8cb06.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -2572,7 +2572,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/KPK6fkDvsVnB8zF6.jpg",
+        "image":  "/cars/64111ca3-032c-4014-84e7-95f7773fae1f.jpg",
         "color":  "Blu"
     },
     {
@@ -2588,7 +2588,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/522x9dhoHcW5mgLw.png",
+        "image":  "/cars/a9698a2c-4bd6-4381-bf3b-f18b600e07f0.jpg",
         "color":  "Nero"
     },
     {
@@ -2604,7 +2604,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/gHmXDLGE97s5nnfk.jpg",
+        "image":  "/cars/f1509669-db12-4ca2-b1f3-3832c173ac95.jpg",
         "color":  "Bianco"
     },
     {
@@ -2620,7 +2620,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/UdqeZWv5xmfce0wP.jpg",
+        "image":  "/cars/e1b315b8-3a15-46b8-ab60-cb4d3359d2f4.jpg",
         "color":  "Not Specified"
     },
     {
@@ -2636,7 +2636,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ErLlC7tYzPgHjrVP.jpg",
+        "image":  "/cars/e4e81eb6-5ff0-46a5-b3c4-4b02ad3e0bbb.jpg",
         "color":  "Grigio"
     },
     {
@@ -2652,7 +2652,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/qzZpn5tuTYVo7Lra.jpg",
+        "image":  "/cars/c88b919d-953d-43a6-82b6-80e13c824ad7.jpg",
         "color":  "Nero"
     },
     {
@@ -2668,7 +2668,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/smCddymzaRMYUrEe.jpg",
+        "image":  "/cars/c603e079-2445-49ff-a716-0104bb7fd7a3.jpg",
         "color":  "Nero"
     },
     {
@@ -2684,7 +2684,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/s2AYOMLCzOF28hNy.jpg",
+        "image":  "/cars/46422dda-8b84-4631-931c-2e1db17431d9.jpg",
         "color":  "Grigio"
     },
     {
@@ -2700,7 +2700,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/k4AQOJjELggAtEac.jpg",
+        "image":  "/cars/2ddadca0-b6ec-4643-b54d-fd34b8cc9313.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2716,7 +2716,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/SvWIpfJ8VmbOIJ9u.jpg",
+        "image":  "/cars/2ca6c3c6-15f3-4d3c-85c7-f759a6e8a28c.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2732,7 +2732,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/sRd5sOynYjxOg00o.jpg",
+        "image":  "/cars/c7fdcffc-f71e-4fbd-844e-ed91b39fcf3f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2748,7 +2748,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WzwsdMogCfpeZlyF.jpg",
+        "image":  "/cars/f750e291-3c76-497c-9fa7-e1fd2428cc1c.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2764,7 +2764,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/5xByrxoibp97LC11.jpg",
+        "image":  "/cars/64d51b97-a630-46e7-9dfd-4c73e78f673a.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2780,7 +2780,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/wEBEhpMVpqSeGFmZ.jpg",
+        "image":  "/cars/4542fa62-5ef6-47bc-b3f7-67a1ba9e4525.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2796,7 +2796,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/hzbzXwMiqP4uueyj.jpg",
+        "image":  "/cars/d45ae1ac-ef20-4552-aac8-a996f54899e2.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2812,7 +2812,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/DNWo6C6Ap7RyVQGv.jpg",
+        "image":  "/cars/c0c34b4a-1791-4e28-bd6c-a78a424aae57.jpg",
         "color":  "Non specificato"
     },
     {
@@ -2828,7 +2828,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/o1XEj0DfF3Ot2q3X.jpg",
+        "image":  "/cars/9df5a57e-6a1c-4f99-92b3-591ab92502b0.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -2844,7 +2844,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/UZKTog5qBPi2SwOl.jpg",
+        "image":  "/cars/e93f51bf-4ac1-426f-934c-dbf9c209ceb6.jpg",
         "color":  "Grigio"
     },
     {
@@ -2860,7 +2860,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/F7o5A8qTkVGdRIgE.jpg",
+        "image":  "/cars/58eb29a5-7eb4-4517-aeea-b3b910dbdb58.jpg",
         "color":  "Bianco"
     },
     {
@@ -2876,7 +2876,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MECMKoE2yt80hFQQ.jpg",
+        "image":  "/cars/bceda035-55a6-4caf-90ab-d5f505de27b1.jpg",
         "color":  "Nero"
     },
     {
@@ -2892,7 +2892,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gKbPmMFgmkBoFyBI.jpg",
+        "image":  "/cars/3990addd-d1e8-433a-b79a-60b1521a7fb2.jpg",
         "color":  "Grigio"
     },
     {
@@ -2908,7 +2908,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/2Iv5AqoFWtqyH5rr.jpg",
+        "image":  "/cars/638f98ec-d2fa-4a04-a79a-1c2d28e73357.jpg",
         "color":  "Nero"
     },
     {
@@ -2924,7 +2924,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/Gq4359mL62TWYYct.jpg",
+        "image":  "/cars/955dd00b-599c-481d-bff0-d1ec7f4e7e1b.jpg",
         "color":  "Bianco"
     },
     {
@@ -2940,7 +2940,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/OOGhEuxRFvAbp52u.jpg",
+        "image":  "/cars/fa74e551-6798-4292-b0d9-f9769c597b60.jpg",
         "color":  "Nero"
     },
     {
@@ -2956,7 +2956,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/DcX3JaRv9uE1zHQy.jpg",
+        "image":  "/cars/40e8cb80-4cbc-457d-9b82-72e5c38ca48f.jpg",
         "color":  "Silver"
     },
     {
@@ -2968,11 +2968,11 @@
         "year":  2021,
         "featured":  false,
         "price":  15950,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ypAjBYEeA1I6huyR.jpg",
+        "image":  "/cars/51a8c7e9-d75b-4bbf-ab14-13019ddfc797.jpg",
         "color":  "Grigio"
     },
     {
@@ -2988,7 +2988,7 @@
         "location":  "Napoli",
         "body":  "Berlina",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/9yRYKOLLn6zmoaDH.jpg",
+        "image":  "/cars/dcd07061-efa3-413f-8458-9b92fa2c4275.jpg",
         "color":  "Nero"
     },
     {
@@ -3004,7 +3004,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/oYoJNP6TeMFQTayo.jpg",
+        "image":  "/cars/200a2d4c-fbe3-4cf8-a62e-4a981838891f.jpg",
         "color":  "Rosso"
     },
     {
@@ -3020,7 +3020,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/Dei5b8ydx6WFm8nZ.jpg",
+        "image":  "/cars/9e65893e-c7f6-4c59-ac5d-6da5c629bea1.jpg",
         "color":  "Rosso"
     },
     {
@@ -3036,7 +3036,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/OOGhEuxRFvAbp52u.jpg",
+        "image":  "/cars/855cef58-827b-40e6-b10d-2569b8ab882a.jpg",
         "color":  "Nero"
     },
     {
@@ -3052,7 +3052,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/45py1stdrLpCc0Nh.jpg",
+        "image":  "/cars/23dce158-70fa-4512-b90a-5f690cb8b33b.jpg",
         "color":  "Unknown"
     },
     {
@@ -3068,7 +3068,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/HlMQ0ZsA2ONguHAx.jpg",
+        "image":  "/cars/31ef465d-a1d3-491b-a149-c806c8250600.jpg",
         "color":  "Unknown"
     },
     {
@@ -3084,7 +3084,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ZcaGedWey15WFl6s.jpg",
+        "image":  "/cars/93d50a5f-2010-474f-a390-b9e29fd90c8e.jpg",
         "color":  "Unknown"
     },
     {
@@ -3100,7 +3100,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/qh5OsfbEVELrnRKX.jpg",
+        "image":  "/cars/86432c50-7489-4dfb-b71b-264a287a703c.jpg",
         "color":  "Unknown"
     },
     {
@@ -3116,7 +3116,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/VMwEnuaK5jPs44rE.jpg",
+        "image":  "/cars/484e7203-a768-4377-8322-935da7160fe1.jpg",
         "color":  "Bianco"
     },
     {
@@ -3132,7 +3132,7 @@
         "location":  "Massa-Carrara",
         "body":  "Monovolume, 5 porte",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/FMNi4N1cJM0wgwdp.jpg",
+        "image":  "/cars/b60410cd-9147-449a-81bf-b7008ad7561f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3148,7 +3148,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi, 5 porte",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VVJhhoSe5OBZ0waV.jpg",
+        "image":  "/cars/8d9746d7-bda5-4245-8b0e-ed30cf22256b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3164,7 +3164,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi, 4 porte",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ZsQ3cc5hkP7ZLUIt.jpg",
+        "image":  "/cars/d26b4fe4-d81d-4c0b-b8f8-157e3c276d14.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3180,7 +3180,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi, 5 porte",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XlxDKPR1PB9sfPvT.jpg",
+        "image":  "/cars/d6c1acad-457a-4595-9d84-78cb6c5e43f1.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3196,7 +3196,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi, 3 porte",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/LspLuuZHpWdMDbrf.jpg",
+        "image":  "/cars/1fb74322-5fbf-4232-8a02-b576547d19d5.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3212,7 +3212,7 @@
         "location":  "Napoli",
         "body":  "Crossover, 5 porte",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ehR1bWIpZGqi2sQG.jpg",
+        "image":  "/cars/b9770776-60bd-48bd-9789-513a00e0e2ff.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3228,7 +3228,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi, 5 porte",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/TseXogZuQmAT8j3P.jpg",
+        "image":  "/cars/d292ae70-536a-4423-ba74-c468abb9d598.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3244,7 +3244,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi, 5 porte",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/5xByrxoibp97LC11.jpg",
+        "image":  "/cars/aadd0d7e-92cd-46cb-bf77-b5cac16dab10.jpg",
         "color":  "Non specificato"
     },
     {
@@ -3260,7 +3260,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ovWPQdUR4Do8f5WN.jpg",
+        "image":  "/cars/7ef45140-6d85-4a50-aba9-8279c71314e0.jpg",
         "color":  "Grigio"
     },
     {
@@ -3276,7 +3276,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/g8MebxiXOH7fkVdV.jpg",
+        "image":  "/cars/aec6bc38-d3ec-4931-af23-9e745f8affbb.jpg",
         "color":  "Grigio"
     },
     {
@@ -3292,7 +3292,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/VBslpJCqcc1PJYRm.jpg",
+        "image":  "/cars/9fad137b-9588-4391-b434-9f7dce26cfa6.jpg",
         "color":  "Bianco"
     },
     {
@@ -3308,7 +3308,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/d3YYrqfX35o5OJ7A.jpg",
+        "image":  "/cars/9314a8cd-3274-45b2-ac5b-0dc01f83a074.jpg",
         "color":  "Blu"
     },
     {
@@ -3324,7 +3324,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/MPmHwMVme0RBq79v.jpg",
+        "image":  "/cars/4a29bb37-a1d9-4e13-9eaa-cade77a05d49.jpg",
         "color":  "Grigio"
     },
     {
@@ -3340,7 +3340,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/l445Jw0l4l8hdk2b.jpg",
+        "image":  "/cars/79975430-5bd8-4702-a7c6-fb4b9e5f529d.jpg",
         "color":  "Blu"
     },
     {
@@ -3356,7 +3356,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VBslpJCqcc1PJYRm.jpg",
+        "image":  "/cars/5a0dd09e-f297-4f38-8de6-fe1da65d8a4a.jpg",
         "color":  "Blu"
     },
     {
@@ -3372,7 +3372,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/FEC03BFR09gDldkY.jpg",
+        "image":  "/cars/7f1668aa-5429-424c-b07b-f7ea3e21f002.jpg",
         "color":  "Blu"
     },
     {
@@ -3388,7 +3388,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ovWPQdUR4Do8f5WN.jpg",
+        "image":  "/cars/82957138-afd4-4c2d-8c7a-bd6e8fd9a144.jpg",
         "color":  "Blu"
     },
     {
@@ -3404,7 +3404,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MPmHwMVme0RBq79v.jpg",
+        "image":  "/cars/0f0b4100-9b86-40b9-b7b7-463b2ac4c07a.jpg",
         "color":  "Blu"
     },
     {
@@ -3420,7 +3420,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/DcX3JaRv9uE1zHQy.jpg",
+        "image":  "/cars/1d0b9893-fe13-4725-bf0f-25f5140a72ae.jpg",
         "color":  "Blu"
     },
     {
@@ -3436,7 +3436,7 @@
         "location":  "Massacarrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XzsWVLVd5Rm9UFL5.jpg",
+        "image":  "/cars/556c6a22-e308-49b8-baef-5e4a137dd10c.jpg",
         "color":  "Blu"
     },
     {
@@ -3452,7 +3452,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/XDkfhF5ZiyZt0wk4.jpg",
+        "image":  "/cars/5ab1cb00-d719-4463-bcfd-efbb70d393d8.jpg",
         "color":  "Blu"
     },
     {
@@ -3468,7 +3468,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/d6HFkVqnE0p4KnFh.jpg",
+        "image":  "/cars/0571338c-2591-4987-afb1-cd898c856c8c.jpg",
         "color":  "Bianco"
     },
     {
@@ -3484,7 +3484,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/M8HvzlGBkXvk5QAm.jpg",
+        "image":  "/cars/938c6b84-71d7-4dab-9b45-10cfb99a4521.jpg",
         "color":  "Bordeaux"
     },
     {
@@ -3500,7 +3500,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ss8ksw9yH9LEwVSd.jpg",
+        "image":  "/cars/14414aad-9cf7-41df-84a3-4af6a666feb0.jpg",
         "color":  "Grigio"
     },
     {
@@ -3516,7 +3516,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/FEC03BFR09gDldkY.jpg",
+        "image":  "/cars/bb812ab6-3956-4923-b6db-cf89305851a3.jpg",
         "color":  "Blu"
     },
     {
@@ -3532,7 +3532,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ovWPQdUR4Do8f5WN.jpg",
+        "image":  "/cars/d42f179e-5607-4214-9401-2a9cc0a1eb61.jpg",
         "color":  "Blu"
     },
     {
@@ -3548,7 +3548,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/l445Jw0l4l8hdk2b.jpg",
+        "image":  "/cars/63af0759-1ca8-4cdc-9b9d-5ea4cead782b.jpg",
         "color":  "Blu"
     },
     {
@@ -3564,7 +3564,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MPmHwMVme0RBq79v.jpg",
+        "image":  "/cars/55bbbe9f-8211-4d73-8b71-c8f8d9381f9d.jpg",
         "color":  "Blu"
     },
     {
@@ -3580,7 +3580,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/WeZyJnT2dX7yrrjO.jpg",
+        "image":  "/cars/7d319ae7-5e9a-4547-a5dd-3aa0b96abd4c.jpg",
         "color":  "Blu"
     },
     {
@@ -3596,7 +3596,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/DcX3JaRv9uE1zHQy.jpg",
+        "image":  "/cars/777fb155-36f3-46f9-b01c-1a1847c15455.jpg",
         "color":  "Blu"
     },
     {
@@ -3612,7 +3612,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XzsWVLVd5Rm9UFL5.jpg",
+        "image":  "/cars/dc736f82-a4cb-4ae9-800d-74606d5f8632.jpg",
         "color":  "Blu"
     },
     {
@@ -3628,7 +3628,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XzsWVLVd5Rm9UFL5.jpg",
+        "image":  "/cars/cdb664c1-c2c8-42ec-9c75-2193141a0f60.jpg",
         "color":  "Blu"
     },
     {
@@ -3644,7 +3644,7 @@
         "location":  "Agnano",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/rBKMqwk6QtJTVZD2.jpg",
+        "image":  "/cars/4f0455fd-3866-4af5-89cb-06964c525b42.jpg",
         "color":  "Bianco"
     },
     {
@@ -3660,7 +3660,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/SzqsCtx9ABwauuko.jpg",
+        "image":  "/cars/d6acebb5-b541-405c-8049-b1c731c0577d.jpg",
         "color":  "Unknown"
     },
     {
@@ -3676,7 +3676,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/z498EJShQY2uXCjb.jpg",
+        "image":  "/cars/8a7a536c-69c8-4f9e-8300-ca32cdcd5b43.jpg",
         "color":  "Grigio"
     },
     {
@@ -3688,11 +3688,11 @@
         "year":  2025,
         "featured":  false,
         "price":  16900,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/oKHD9JfP1qI6mi5S.jpg",
+        "image":  "/cars/19c03ff3-d293-4e94-893a-7deee92ac539.jpg",
         "color":  "Bianco"
     },
     {
@@ -3708,7 +3708,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/si7rz5cGhANDe6Gj.jpg",
+        "image":  "/cars/72bebd3c-c8a7-4e70-9655-8a8cc64640cf.jpg",
         "color":  "Unknown"
     },
     {
@@ -3724,7 +3724,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UzedVLjhF1hTDSl6.jpg",
+        "image":  "/cars/2d397390-29f0-4c33-b9a2-5e6e9ccb78d7.jpg",
         "color":  "Unknown"
     },
     {
@@ -3740,7 +3740,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/jLQ0kP3lfO3S7o0l.jpg",
+        "image":  "/cars/f2861606-7072-4ce4-b3b4-c25891a834d8.jpg",
         "color":  "Unknown"
     },
     {
@@ -3756,7 +3756,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/rBKMqwk6QtJTVZD2.jpg",
+        "image":  "/cars/b9ea5a1f-2f33-4380-b2ec-ce7d06c61e36.jpg",
         "color":  "Unknown"
     },
     {
@@ -3772,7 +3772,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/01uGMGVGEAho86Mw.jpg",
+        "image":  "/cars/de6079b2-5ad2-4b26-8e18-376611dc877d.jpg",
         "color":  "Unknown"
     },
     {
@@ -3788,7 +3788,7 @@
         "location":  "Carrara",
         "body":  "Fuoristrada",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/WboQ8ABb4Rw9Xbtz.jpg",
+        "image":  "/cars/cee909d7-615d-4041-b1d2-d44c5c1c9910.jpg",
         "color":  "Nero"
     },
     {
@@ -3804,7 +3804,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/KIyERIYHpuS6M374.jpg",
+        "image":  "/cars/7fa58d71-59bb-494e-9fb6-0c07942c424e.jpg",
         "color":  "N/A"
     },
     {
@@ -3820,7 +3820,7 @@
         "location":  "Agnano",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/WY7eHzic01dLJvRv.jpg",
+        "image":  "/cars/900a49dd-08cb-43d1-a5c2-dc6c7848be51.jpg",
         "color":  "Grigio"
     },
     {
@@ -3836,7 +3836,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/sRd5sOynYjxOg00o.jpg",
+        "image":  "/cars/ff11f58d-535f-4087-8b16-e2889de2f1e8.jpg",
         "color":  "Giallo"
     },
     {
@@ -3852,7 +3852,7 @@
         "location":  "Napoli",
         "body":  "Cabrio",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/c1JoMEHjz0I3p2Bu.jpg",
+        "image":  "/cars/f77e301b-f7d4-4969-819e-8c620c36d545.jpg",
         "color":  "Nero"
     },
     {
@@ -3868,7 +3868,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/xTExYuFQ8qUj0N7u.jpg",
+        "image":  "/cars/6f5b8779-f65e-4b9f-b35f-b25c0646b5bd.jpg",
         "color":  "Blu"
     },
     {
@@ -3884,7 +3884,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/fhLTraKkkZPRYRa6.jpg",
+        "image":  "/cars/0184f70f-eb41-4006-8089-bd79060b9fd4.jpg",
         "color":  "Bianco"
     },
     {
@@ -3900,7 +3900,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/WzwsdMogCfpeZlyF.jpg",
+        "image":  "/cars/4080b490-4f34-4933-813d-f2c0523052b4.jpg",
         "color":  "Giallo"
     },
     {
@@ -3916,7 +3916,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/200/34534/Unrk9sR7Qm7YL76V.jpg",
+        "image":  "/cars/817a3b6e-57ee-447b-80c2-e09120a30358.jpg",
         "color":  "Nero"
     },
     {
@@ -3932,7 +3932,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/iW4VPJPI91u4MbgB.jpg",
+        "image":  "/cars/dc16c286-d26f-4a4b-9145-64961515d6eb.jpg",
         "color":  "Blu"
     },
     {
@@ -3948,7 +3948,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/LspLuuZHpWdMDbrf.jpg",
+        "image":  "/cars/de71aed7-0cde-4e2f-90d4-637070494533.jpg",
         "color":  "Giallo"
     },
     {
@@ -3964,7 +3964,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MnQBw6GFdx2tD2tB.jpg",
+        "image":  "/cars/ddc66b67-89e4-4a22-aa70-bc24b5748405.jpg",
         "color":  "N/A"
     },
     {
@@ -3980,7 +3980,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XlxDKPR1PB9sfPvT.jpg",
+        "image":  "/cars/4f9aa15d-221e-4de0-822e-25cbaac948d4.jpg",
         "color":  "N/A"
     },
     {
@@ -3996,7 +3996,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ZsQ3cc5hkP7ZLUIt.jpg",
+        "image":  "/cars/cb8ab97d-4a00-459a-8ce8-30179d3386ea.jpg",
         "color":  "N/A"
     },
     {
@@ -4012,7 +4012,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VVJhhoSe5OBZ0waV.jpg",
+        "image":  "/cars/3767fc00-b672-4b05-aca9-8fd62c8bbb4c.jpg",
         "color":  "N/A"
     },
     {
@@ -4028,7 +4028,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VMwEnuaK5jPs44rE.jpg",
+        "image":  "/cars/7e7969ff-d306-4185-87b4-4215d59ab4f0.jpg",
         "color":  "N/A"
     },
     {
@@ -4044,7 +4044,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/5xByrxoibp97LC11.jpg",
+        "image":  "/cars/3e5f9688-caee-4a41-bc4b-fc2c66481153.jpg",
         "color":  "N/A"
     },
     {
@@ -4060,7 +4060,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8cXdMnrUd2HKOYHA.jpg",
+        "image":  "/cars/e2536d29-a926-4dcd-9377-4de4f36e791b.jpg",
         "color":  "N/A"
     },
     {
@@ -4076,7 +4076,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8zUTfLt8ZFmKr57D.jpg",
+        "image":  "/cars/db33e903-f0fa-43a3-938a-5195bffe5f94.jpg",
         "color":  "N/A"
     },
     {
@@ -4092,7 +4092,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/rpyNPI6imYvamFv8.jpg",
+        "image":  "/cars/76770287-60f3-4ee5-aead-408bc9bea586.jpg",
         "color":  "N/A"
     },
     {
@@ -4108,7 +4108,7 @@
         "location":  "Agnano",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ehR1bWIpZGqi2sQG.jpg",
+        "image":  "/cars/e0334572-c436-4fb2-b1d0-caf3b44183d4.jpg",
         "color":  "Nero"
     },
     {
@@ -4124,7 +4124,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/1Qn64IBmfUI7hQvf.jpg",
+        "image":  "/cars/3a48086e-5700-4381-8300-d9c0795899b0.jpg",
         "color":  "Grigio"
     },
     {
@@ -4140,7 +4140,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/MnQBw6GFdx2tD2tB.jpg",
+        "image":  "/cars/2022fe68-c6ea-437c-affe-1456950daa7c.jpg",
         "color":  "Nero"
     },
     {
@@ -4152,11 +4152,11 @@
         "year":  2018,
         "featured":  false,
         "price":  9500,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/4u7MQMJBsx26LsX6.jpg",
+        "image":  "/cars/16db2910-581e-46da-bf00-5e3940aa1722.jpg",
         "color":  "Bianco"
     },
     {
@@ -4172,7 +4172,7 @@
         "location":  "Agnano",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/aBwPnkxjNbvPfJrj.jpg",
+        "image":  "/cars/a4dde650-fc31-4083-93e8-1ceac7d170ed.jpg",
         "color":  "Grigio"
     },
     {
@@ -4188,7 +4188,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/nQfWUa4rSUi407dt.png",
+        "image":  "/cars/84efab05-2cf6-4956-abbc-db4417c0bf82.jpg",
         "color":  "Nero"
     },
     {
@@ -4204,7 +4204,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/01uGMGVGEAho86Mw.jpg",
+        "image":  "/cars/5fd351df-30cf-4db5-9fcf-896603134648.jpg",
         "color":  "Grigio"
     },
     {
@@ -4220,7 +4220,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/SvWIpfJ8VmbOIJ9u.jpg",
+        "image":  "/cars/ac23e13c-da48-4cc4-8467-343037239a49.jpg",
         "color":  "Giallo"
     },
     {
@@ -4236,7 +4236,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/VVJhhoSe5OBZ0waV.jpg",
+        "image":  "/cars/f97442b2-e899-4a0c-bad2-a4ed130aecda.jpg",
         "color":  "N/A"
     },
     {
@@ -4252,7 +4252,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ZsQ3cc5hkP7ZLUIt.jpg",
+        "image":  "/cars/4f4ff747-1f8e-4a1d-a425-339a4e999523.jpg",
         "color":  "N/A"
     },
     {
@@ -4268,7 +4268,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VMwEnuaK5jPs44rE.jpg",
+        "image":  "/cars/0ad2f1f2-20f4-4a20-af3c-c1a0a06e85ee.jpg",
         "color":  "N/A"
     },
     {
@@ -4284,7 +4284,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/KIyERIYHpuS6M374.jpg",
+        "image":  "/cars/119ed375-f3d9-4d0e-afc5-1fd4944418d7.jpg",
         "color":  "N/A"
     },
     {
@@ -4300,7 +4300,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UzedVLjhF1hTDSl6.jpg",
+        "image":  "/cars/4245a238-653c-4355-8923-ab607fc36f60.jpg",
         "color":  "N/A"
     },
     {
@@ -4316,7 +4316,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ehR1bWIpZGqi2sQG.jpg",
+        "image":  "/cars/f50f8d85-fbae-443b-9f0b-fe6e8900dbe6.jpg",
         "color":  "N/A"
     },
     {
@@ -4332,7 +4332,7 @@
         "location":  "Agnano",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ZcaGedWey15WFl6s.jpg",
+        "image":  "/cars/76ce5985-073c-4386-83ba-397cf2fbe8a3.jpg",
         "color":  "Nero"
     },
     {
@@ -4348,7 +4348,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/O0O7avi0uxD54zRI.jpg",
+        "image":  "/cars/551350e0-b15d-48f1-a1f9-d707e36185db.jpg",
         "color":  "Grigio"
     },
     {
@@ -4364,7 +4364,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/JNyKnRcQGxvjARsw.jpg",
+        "image":  "/cars/4938caff-0853-4b22-997f-b4a5688f9291.jpg",
         "color":  "Blu"
     },
     {
@@ -4380,7 +4380,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/KMYUADDeiPxUJCHc.jpg",
+        "image":  "/cars/00ed197a-2d8f-4bce-9538-2f9aea1aef21.jpg",
         "color":  "Blu"
     },
     {
@@ -4396,7 +4396,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/hzbzXwMiqP4uueyj.jpg",
+        "image":  "/cars/a950d4a9-9fbf-4e11-9654-5e70493e774d.jpg",
         "color":  "Grigio"
     },
     {
@@ -4412,7 +4412,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/gKbPmMFgmkBoFyBI.jpg",
+        "image":  "/cars/0c7c68ca-779f-437c-8cf9-bb7bd679b9d9.jpg",
         "color":  "Blu"
     },
     {
@@ -4428,7 +4428,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ntS8evfKiZkRcX1U.jpg",
+        "image":  "/cars/83e6e0b0-a9a3-4158-999a-875812946a14.jpg",
         "color":  "Beige"
     },
     {
@@ -4444,7 +4444,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/HCLJuhjcdJ34qCoE.jpg",
+        "image":  "/cars/cf2355ac-e14b-45a6-baf0-7b9e42a36dd6.jpg",
         "color":  "Grigio"
     },
     {
@@ -4460,7 +4460,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/gMxx0i7lg4TjiJbV.jpg",
+        "image":  "/cars/4c170a33-7d23-4461-af2d-7a58c0f3d45b.jpg",
         "color":  "Grigio"
     },
     {
@@ -4476,7 +4476,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/dVw1lO2P5I27bDBz.jpg",
+        "image":  "/cars/a2e2a988-4d54-4cc1-a8f8-a919b46845dd.jpg",
         "color":  "Rosso"
     },
     {
@@ -4492,7 +4492,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/hBcv1xqFcVJiDm0a.jpg",
+        "image":  "/cars/22c6822b-9da8-4aeb-a160-2cb5d77fdc66.jpg",
         "color":  "Bianco"
     },
     {
@@ -4504,11 +4504,11 @@
         "year":  2020,
         "featured":  false,
         "price":  13300,
-        "brand":  "Е koda",
+        "brand":  "Škoda",
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/U8oDEONqGBfBQhWg.jpg",
+        "image":  "/cars/2429a190-65e2-41b8-9e47-bd8286850468.jpg",
         "color":  "Grigio"
     },
     {
@@ -4524,7 +4524,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/JhRKRX0sSV0WMCGX.jpg",
+        "image":  "/cars/633427dc-fab1-4512-9fed-c97c374118b6.jpg",
         "color":  "Nero"
     },
     {
@@ -4540,7 +4540,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/TseXogZuQmAT8j3P.jpg",
+        "image":  "/cars/d586c7c7-35c9-4deb-98b5-52289b09211c.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4556,7 +4556,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gKbPmMFgmkBoFyBI.jpg",
+        "image":  "/cars/0a0eadc7-493a-489f-8b63-04d266d1e5bf.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4572,7 +4572,7 @@
         "location":  "Napoli",
         "body":  "Cabrio",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/c1JoMEHjz0I3p2Bu.jpg",
+        "image":  "/cars/d87136cb-6221-4fce-ac52-220a9c4b9b1e.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4588,7 +4588,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel/Elettrica",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/aBwPnkxjNbvPfJrj.jpg",
+        "image":  "/cars/f4f6982d-3403-4dda-b5f1-e8962300af5d.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4604,7 +4604,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/2Iv5AqoFWtqyH5rr.jpg",
+        "image":  "/cars/c966af4b-eeb6-41ff-aa90-ac4e33a835d9.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4620,7 +4620,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/MECMKoE2yt80hFQQ.jpg",
+        "image":  "/cars/a4250ae5-ddb6-4c4a-b523-22582cd73651.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4636,7 +4636,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/F7o5A8qTkVGdRIgE.jpg",
+        "image":  "/cars/6f118e0e-3465-4931-9234-f59ce232e81c.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4652,7 +4652,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/PqAhOaKsvtnK0D21.jpg",
+        "image":  "/cars/24d30228-2f3e-474b-b187-b212efafb8f1.jpg",
         "color":  "Non specificato"
     },
     {
@@ -4668,7 +4668,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/073anSp1IJTcFGu6.jpg",
+        "image":  "/cars/6aea2167-5f1a-4b77-9a39-76fdc5f01ed1.jpg",
         "color":  "Verde"
     },
     {
@@ -4684,7 +4684,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/6m2xCwz3L8FIz0FR.jpg",
+        "image":  "/cars/d81b17b2-c93b-44cb-8640-d99e2e7ef7b0.jpg",
         "color":  "Argento"
     },
     {
@@ -4700,7 +4700,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/vKZ7AObs7Db6J3Ct.jpg",
+        "image":  "/cars/fc2ef81c-a1cf-4001-92b2-98267cfc14d7.jpg",
         "color":  "Rosso"
     },
     {
@@ -4716,7 +4716,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/UoWjXR8wYZhFnzTw.jpg",
+        "image":  "/cars/019abe80-fd35-4437-981e-cd2c938d968d.jpg",
         "color":  "Argento"
     },
     {
@@ -4732,7 +4732,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/hT05naQ94pAzIYYl.jpg",
+        "image":  "/cars/66f12c09-3ba0-4582-9456-3b95d58be348.jpg",
         "color":  "Silver"
     },
     {
@@ -4748,7 +4748,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/rHA5ilpI6dx46HMc.jpg",
+        "image":  "/cars/3049e2ea-c37c-4518-ae8d-3eadd02e8c15.jpg",
         "color":  "Bianco"
     },
     {
@@ -4764,7 +4764,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/uqPIM5SgumnFmBiF.jpg",
+        "image":  "/cars/43b71442-7f12-464d-8ec5-04358977343c.jpg",
         "color":  "Blu"
     },
     {
@@ -4780,7 +4780,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/KMFGMvpc3g6ldBZU.jpg",
+        "image":  "/cars/a20e3ae7-2ac8-443f-87e8-2fefba0df430.jpg",
         "color":  "Azzurro"
     },
     {
@@ -4796,7 +4796,7 @@
         "location":  "Carrara",
         "body":  "Cabrio",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/iOnujuQIvgP162hI.jpg",
+        "image":  "/cars/c2069243-2319-4014-a2d2-345541ef006e.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -4812,7 +4812,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/0LPOvtRm6qmonrPV.jpg",
+        "image":  "/cars/3abb4951-b33a-4d02-a88b-4e100a24c6c3.jpg",
         "color":  "Blu"
     },
     {
@@ -4828,7 +4828,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/Yee6kjprQiZCP462.jpg",
+        "image":  "/cars/84824a63-09f7-40f8-be36-aaa1b18cc3fc.jpg",
         "color":  "Bianco"
     },
     {
@@ -4844,7 +4844,7 @@
         "location":  "Massa-Carrara",
         "body":  "Monovolume",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/yPDVzBwxj8bOicpW.jpg",
+        "image":  "/cars/a6ca1cce-0e40-4785-ac41-9d9daaed7ecc.jpg",
         "color":  "unknown"
     },
     {
@@ -4860,7 +4860,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/W7LcJSbsd2Icn4Dx.jpg",
+        "image":  "/cars/3d39a1ac-5595-4fb1-b5c6-04667815c900.jpg",
         "color":  "N/A"
     },
     {
@@ -4876,7 +4876,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/W7LcJSbsd2Icn4Dx.jpg",
+        "image":  "/cars/a77becb8-ee5a-46f4-a7f7-e26482199f94.jpg",
         "color":  "Unknown"
     },
     {
@@ -4892,7 +4892,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/7tDmS2Gq8rDe7Ruy.jpg",
+        "image":  "/cars/d4d5de8d-1fa9-41c8-99d0-46ca415f46a7.jpg",
         "color":  "Unknown"
     },
     {
@@ -4908,7 +4908,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/up4IxD5ADnJujWp2.jpg",
+        "image":  "/cars/7fa3a475-9fb5-4152-8579-3c5cec3cd189.jpg",
         "color":  "Not specified"
     },
     {
@@ -4924,7 +4924,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UzedVLjhF1hTDSl6.jpg",
+        "image":  "/cars/84afe2f9-5762-4557-938f-851b8da32686.jpg",
         "color":  "Not specified"
     },
     {
@@ -4940,7 +4940,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/AZ0BDS8hxMP6tI6k.jpg",
+        "image":  "/cars/c6cc9a6c-4fd3-4a90-86aa-04ce0e0c737b.jpg",
         "color":  "Not specified"
     },
     {
@@ -4956,7 +4956,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/jLQ0kP3lfO3S7o0l.jpg",
+        "image":  "/cars/85a89619-85c1-4c08-b244-91a7f673390c.jpg",
         "color":  "Not specified"
     },
     {
@@ -4972,7 +4972,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/hBcv1xqFcVJiDm0a.jpg",
+        "image":  "/cars/ecaf059d-dab8-4566-8b75-e7c7f2cf40ad.jpg",
         "color":  "Not specified"
     },
     {
@@ -4988,7 +4988,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/rCnIl1ki36W278U5.jpg",
+        "image":  "/cars/511a1ea5-03ee-4c40-856a-64ec638fce8b.jpg",
         "color":  "Not specified"
     },
     {
@@ -5004,7 +5004,7 @@
         "location":  "Napoli",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/01uGMGVGEAho86Mw.jpg",
+        "image":  "/cars/8765552e-8740-4f59-a90a-992b4f661bd5.jpg",
         "color":  "Not specified"
     },
     {
@@ -5020,7 +5020,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/5MmWfhJrqHMEC8qI.jpg",
+        "image":  "/cars/290e98cf-3999-4132-8011-625f3c93489d.jpg",
         "color":  "Not specified"
     },
     {
@@ -5036,7 +5036,7 @@
         "location":  "Napoli",
         "body":  "Monovolume",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/aLL5Aka8tQkEIB70.jpg",
+        "image":  "/cars/60eaf670-5d5c-47b5-8e18-3c1abb05c303.jpg",
         "color":  "Not specified"
     },
     {
@@ -5052,7 +5052,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nAwhwKxM8ZpVVDnT.jpg",
+        "image":  "/cars/49aba5e2-b856-46b1-9bc2-a7aa37d18e69.jpg",
         "color":  "Not specified"
     },
     {
@@ -5068,7 +5068,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/X9pRQrxqNMTNs4m9.jpg",
+        "image":  "/cars/50824f9d-a8aa-421e-a905-0cd3006fd5d5.jpg",
         "color":  "Not specified"
     },
     {
@@ -5084,7 +5084,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XlxDKPR1PB9sfPvT.jpg",
+        "image":  "/cars/fdcf928d-27b7-45ac-ab88-47d1b51fd095.jpg",
         "color":  "Not specified"
     },
     {
@@ -5100,7 +5100,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/si7rz5cGhANDe6Gj.jpg",
+        "image":  "/cars/a3ccde79-c774-4291-b532-29e82bb5c149.jpg",
         "color":  "Not specified"
     },
     {
@@ -5116,7 +5116,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ftAEuCYEfL7fku43.jpg",
+        "image":  "/cars/c9e60d62-5965-4a95-bbf4-aba9ff5b22c1.jpg",
         "color":  "Not specified"
     },
     {
@@ -5132,7 +5132,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/W7LcJSbsd2Icn4Dx.jpg",
+        "image":  "/cars/be669af4-3308-46a0-8181-2ed944e2ce39.jpg",
         "color":  "Not specified"
     },
     {
@@ -5148,7 +5148,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/7tDmS2Gq8rDe7Ruy.jpg",
+        "image":  "/cars/5efd43f6-5f38-4454-b50a-d771b31e9d40.jpg",
         "color":  "Not specified"
     },
     {
@@ -5164,7 +5164,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/7tDmS2Gq8rDe7Ruy.jpg",
+        "image":  "/cars/461bda5d-69ae-4186-b5fd-9ba14651d416.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5176,11 +5176,11 @@
         "year":  2020,
         "featured":  false,
         "price":  13300,
-        "brand":  "Е koda",
+        "brand":  "Škoda",
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/U8oDEONqGBfBQhWg.jpg",
+        "image":  "/cars/c8265f15-8c2b-4efc-95d9-f8aaff327d5c.jpg",
         "color":  "N/A"
     },
     {
@@ -5192,11 +5192,11 @@
         "year":  2020,
         "featured":  false,
         "price":  13300,
-        "brand":  "Е koda",
+        "brand":  "Škoda",
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/U8oDEONqGBfBQhWg.jpg",
+        "image":  "/cars/420434ef-eb80-4f21-88c8-7f69029a0e4d.jpg",
         "color":  "N/A"
     },
     {
@@ -5212,7 +5212,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ytTR6pTn5hu5HwJL.jpg",
+        "image":  "/cars/569b233b-8f06-4349-b5ba-8542c43f368b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5228,7 +5228,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nQfWUa4rSUi407dt.png",
+        "image":  "/cars/69d245f0-2980-4c6c-a1d4-f3a117f4f561.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5244,7 +5244,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/JhRKRX0sSV0WMCGX.jpg",
+        "image":  "/cars/86dbb0ad-7aa0-45e3-986e-2458753c8351.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5260,7 +5260,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/JhRKRX0sSV0WMCGX.jpg",
+        "image":  "/cars/021a8753-72c9-44ec-9021-1aa79ff960a9.jpg",
         "color":  "Unknown"
     },
     {
@@ -5276,7 +5276,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QdKY4xdiZRM5WAFd.jpg",
+        "image":  "/cars/4ef2de54-d040-4abc-8711-914ed7d2249f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5292,7 +5292,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/TRJA3C71Qp86Pk1F.jpg",
+        "image":  "/cars/c58db6f6-97c0-43f5-b638-65a511537757.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5308,7 +5308,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8cXdMnrUd2HKOYHA.jpg",
+        "image":  "/cars/df079bfb-1d36-4c55-a043-a23e24ab97e4.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5324,7 +5324,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/ytTR6pTn5hu5HwJL.jpg",
+        "image":  "/cars/b66239b6-7c79-4d94-aecc-ea7c9de72594.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5340,7 +5340,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nQfWUa4rSUi407dt.png",
+        "image":  "/cars/79d7d18e-0338-4a42-a885-feda9988c702.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5356,7 +5356,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UZKTog5qBPi2SwOl.jpg",
+        "image":  "/cars/3ee28d53-768a-4b31-97fa-03779864f6c2.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5372,7 +5372,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XD61AH0sdkqlYwZk.jpg",
+        "image":  "/cars/2dd7d14a-9697-4261-bf4b-912ca4e2323f.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5388,7 +5388,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/RpvZHof2uMw9x1Bh.jpg",
+        "image":  "/cars/a9a6b912-a431-4fa8-aa95-32a608ec59f6.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5404,7 +5404,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/mENJji02mTaKQExR.jpg",
+        "image":  "/cars/58bf6efb-a68e-4c31-940d-106cc5f9a817.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5420,7 +5420,7 @@
         "location":  "Carrara",
         "body":  "Cabrio",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/iOnujuQIvgP162hI.jpg",
+        "image":  "/cars/f71fcd25-7c21-47a8-a509-72287cc1b731.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5436,7 +5436,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "GPL",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/JhRKRX0sSV0WMCGX.jpg",
+        "image":  "/cars/502893d4-0180-4890-9ae5-a1116dc65035.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5452,7 +5452,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VVJhhoSe5OBZ0waV.jpg",
+        "image":  "/cars/75abdf27-65d1-4a6b-b269-17ea28414437.jpg",
         "color":  "N/A"
     },
     {
@@ -5468,7 +5468,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QezCqrNKnNRS8t8O.jpg",
+        "image":  "/cars/ddff4c80-7c0f-4851-a871-ea23505f91a1.jpg",
         "color":  "N/A"
     },
     {
@@ -5484,7 +5484,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/073anSp1IJTcFGu6.jpg",
+        "image":  "/cars/c8f11afc-a67a-47f2-b08f-a43ddfe086d3.jpg",
         "color":  "N/A"
     },
     {
@@ -5500,7 +5500,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QezCqrNKnNRS8t8O.jpg",
+        "image":  "/cars/16a9eaf4-bd6c-4ca4-8eb3-56f01b441b6e.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5516,7 +5516,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/073anSp1IJTcFGu6.jpg",
+        "image":  "/cars/9be296d4-d16f-4a25-82b4-d0df3d428a87.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5532,7 +5532,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ycNSvPHbxNJrS5If.jpg",
+        "image":  "/cars/0380467f-b392-44f1-ab3e-d01bfa8bac80.jpg",
         "color":  "Bianco"
     },
     {
@@ -5548,7 +5548,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/nk71Is007yzjJ4Cy.jpg",
+        "image":  "/cars/16ee34b6-068e-4c39-9993-800bdfd69d5c.jpg",
         "color":  "Bianco"
     },
     {
@@ -5564,7 +5564,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/H71Lih0CIOhfK1MY.jpg",
+        "image":  "/cars/88253424-a5c8-4d9a-aeef-028197474e0a.jpg",
         "color":  "Blu"
     },
     {
@@ -5580,7 +5580,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/mENJji02mTaKQExR.jpg",
+        "image":  "/cars/d1f4f8a1-ca35-4aee-b819-5f854dad74f3.jpg",
         "color":  "Rosso"
     },
     {
@@ -5596,7 +5596,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/G38Meiuo9wjNqjoA.jpg",
+        "image":  "/cars/eeca002f-2138-4fd6-bcc5-d8588482a6d9.jpg",
         "color":  "Bianco"
     },
     {
@@ -5608,11 +5608,11 @@
         "year":  2024,
         "featured":  false,
         "price":  17500,
-        "brand":  "CitroГ«n",
+        "brand":  "Citroën",
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/wT3xauZ1Xx0Dl4kU.jpg",
+        "image":  "/cars/9c2ebf73-6be9-465a-ba60-4b5e36fd0197.jpg",
         "color":  "Rosso"
     },
     {
@@ -5628,7 +5628,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/QHGASF4aTqrMLQ5m.jpg",
+        "image":  "/cars/3ade25d5-9d53-4c21-9edb-7dab65b38347.jpg",
         "color":  "Nero"
     },
     {
@@ -5644,7 +5644,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ftAEuCYEfL7fku43.jpg",
+        "image":  "/cars/e955ba91-bb03-48fc-af82-93db83492d37.jpg",
         "color":  "Grigio scuro"
     },
     {
@@ -5660,7 +5660,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/Hzi8bVmN9NWHXbl9.jpg",
+        "image":  "/cars/d49a164b-ad7b-4bac-9534-47e94db338d6.jpg",
         "color":  "Argento"
     },
     {
@@ -5676,7 +5676,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/RpvZHof2uMw9x1Bh.jpg",
+        "image":  "/cars/ac5ff2de-f433-46af-a47c-3ab9d030d6ca.jpg",
         "color":  "Blu"
     },
     {
@@ -5692,7 +5692,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/DNWo6C6Ap7RyVQGv.jpg",
+        "image":  "/cars/46b9b326-4e88-4a7e-8f49-34da574d1c1d.jpg",
         "color":  "Bianco"
     },
     {
@@ -5708,7 +5708,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/BiPRVcC5Na0nBlx4.jpg",
+        "image":  "/cars/050a5977-b753-466f-b942-3f8a2ea6a419.jpg",
         "color":  "Rosso"
     },
     {
@@ -5724,7 +5724,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/XD61AH0sdkqlYwZk.jpg",
+        "image":  "/cars/b2486419-3354-4681-8c26-5119919c3319.jpg",
         "color":  "Bianco"
     },
     {
@@ -5740,7 +5740,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/xMMlivgmrasZK1fY.jpg",
+        "image":  "/cars/7520e5ba-3627-4b06-8422-d8819d95fbe4.jpg",
         "color":  "Blu"
     },
     {
@@ -5756,7 +5756,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/faxe8R0qXbYSkyyS.jpg",
+        "image":  "/cars/422adf62-6778-4ef5-bd2d-2f9c17b98efd.jpg",
         "color":  "Rosso"
     },
     {
@@ -5772,7 +5772,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/QYPckZdQzLL4oPJw.jpg",
+        "image":  "/cars/333fbb04-675b-4651-9f6e-7b9702da98fd.jpg",
         "color":  "Bianco"
     },
     {
@@ -5788,7 +5788,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/RGcT4Dg8e00wXqlc.jpg",
+        "image":  "/cars/0ffe38e1-5656-490c-8ff9-8ef90ea450c8.jpg",
         "color":  "Argento"
     },
     {
@@ -5804,7 +5804,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/sGCCMtbCkLM7G1Ii.jpg",
+        "image":  "/cars/48c15718-c92f-4bbe-ad25-366792d5ff1e.jpg",
         "color":  "Blu"
     },
     {
@@ -5816,11 +5816,11 @@
         "year":  2021,
         "featured":  false,
         "price":  20950,
-        "brand":  "Е koda",
+        "brand":  "Škoda",
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/DDaqIKpbxxplWtt8.jpg",
+        "image":  "/cars/fc5750d0-0bc6-4bb4-ae0d-320042fe16a4.jpg",
         "color":  "Nero"
     },
     {
@@ -5836,7 +5836,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/KXssbKSnm0geMZ1S.jpg",
+        "image":  "/cars/b1bbd1a4-a347-4bc9-bcbd-ca08f97182f6.jpg",
         "color":  "Bianco"
     },
     {
@@ -5852,7 +5852,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ZsQ3cc5hkP7ZLUIt.jpg",
+        "image":  "/cars/c98c7b3a-e588-4324-891c-d1f1d3f7e4a8.jpg",
         "color":  "Nero"
     },
     {
@@ -5868,7 +5868,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/hKiy3rej4wjwPd0j.jpg",
+        "image":  "/cars/50a39a7b-2fe1-48a2-a23a-53e276a80fc3.jpg",
         "color":  "Grigio"
     },
     {
@@ -5884,7 +5884,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/V2NlsozObnn3aXP2.jpg",
+        "image":  "/cars/7be2a097-cdfb-4544-b126-68e2847909ed.jpg",
         "color":  "Rosso"
     },
     {
@@ -5900,7 +5900,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/bHVklIx2zMtKNTqZ.jpg",
+        "image":  "/cars/9c4de162-5bd1-41c8-989c-49613f635399.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5916,7 +5916,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/G38Meiuo9wjNqjoA.jpg",
+        "image":  "/cars/11499c5f-0c01-45c9-abda-6560d2c2d1b1.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5932,7 +5932,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/8cXdMnrUd2HKOYHA.jpg",
+        "image":  "/cars/aba7570e-74da-43d9-83af-9713ec2994b5.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5948,7 +5948,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/UZKTog5qBPi2SwOl.jpg",
+        "image":  "/cars/c6c68433-cdaa-4772-8f36-953681ffc548.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5964,7 +5964,7 @@
         "location":  "Massa-Carrara",
         "body":  "Cabrio",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/iOnujuQIvgP162hI.jpg",
+        "image":  "/cars/ec7f1f0d-5d68-4b62-962a-0ca924eb0816.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5980,7 +5980,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Gas naturale",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/d6HFkVqnE0p4KnFh.jpg",
+        "image":  "/cars/c3abd69b-1768-4527-8ee0-e074a8774945.jpg",
         "color":  "Non specificato"
     },
     {
@@ -5996,7 +5996,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/rh0PfuOX3tT4TNBO.jpg",
+        "image":  "/cars/7fc522eb-d2a0-478c-94a2-cfbea787e59b.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6012,7 +6012,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/XLss2AixhslJwZ0d.jpg",
+        "image":  "/cars/b8a264e1-ded6-4f98-a996-d0f087a5336e.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6028,7 +6028,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ZFsG95UBSAphywQW.jpg",
+        "image":  "/cars/a5908bd1-375f-4abd-8193-5c1904e4c0f8.jpg",
         "color":  "Bianco"
     },
     {
@@ -6044,7 +6044,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/Q0zSGYeBCoEMDNpT.jpg",
+        "image":  "/cars/ae1239d2-83de-4d11-95ca-dbe5e30a4ace.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6060,7 +6060,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ovsId1RAmyCFpFFx.jpg",
+        "image":  "/cars/00d93b50-8d66-46f6-ae4e-739403dd9c43.jpg",
         "color":  "N/A"
     },
     {
@@ -6076,7 +6076,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/SqBI4V1HPA4GwH7U.jpg",
+        "image":  "/cars/49a752e1-ac4b-4a61-be73-0f653b2e8694.jpg",
         "color":  "Bianco"
     },
     {
@@ -6092,7 +6092,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/pNYpUmxtw5hDGgri.jpg",
+        "image":  "/cars/2d0cdd16-3130-4dc0-8eed-14b5e7c69d21.jpg",
         "color":  "Grigio"
     },
     {
@@ -6108,7 +6108,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/UpzpnfeGaOCtTCJZ.jpg",
+        "image":  "/cars/ebc3b48a-5e0c-43fe-a00a-6addd93a5c55.jpg",
         "color":  "Nero"
     },
     {
@@ -6124,7 +6124,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/5xByrxoibp97LC11.jpg",
+        "image":  "/cars/ab323e05-3d90-40cd-a1a9-29cdb37a5832.jpg",
         "color":  "Grigio"
     },
     {
@@ -6140,7 +6140,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/iW4VPJPI91u4MbgB.jpg",
+        "image":  "/cars/a36071b9-999c-49df-b818-105457584742.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6156,7 +6156,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/gHmXDLGE97s5nnfk.jpg",
+        "image":  "/cars/1ca9234d-3c24-4a48-a263-290f7bc41000.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6172,7 +6172,7 @@
         "location":  "Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/Yee6kjprQiZCP462.jpg",
+        "image":  "/cars/befc4a2e-e315-4567-aeb6-342fc92ac41a.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6188,7 +6188,7 @@
         "location":  "Carrara",
         "body":  "Monovolume",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/yPDVzBwxj8bOicpW.jpg",
+        "image":  "/cars/b65ae715-8fa2-4abe-b6b2-62e406686f10.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6204,7 +6204,7 @@
         "location":  "Carrara",
         "body":  "Monovolume",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/yPDVzBwxj8bOicpW.jpg",
+        "image":  "/cars/5cc9ff57-a119-443f-aa03-bcddca329d02.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6220,7 +6220,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/6m2xCwz3L8FIz0FR.jpg",
+        "image":  "/cars/4c8a68af-318b-49a5-89f4-a17884b151c7.jpg",
         "color":  "N/A"
     },
     {
@@ -6236,7 +6236,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QezCqrNKnNRS8t8O.jpg",
+        "image":  "/cars/a8d14ed2-dcd7-4ac0-b680-559795468218.jpg",
         "color":  "N/A"
     },
     {
@@ -6252,7 +6252,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/073anSp1IJTcFGu6.jpg",
+        "image":  "/cars/037d09c1-dbe0-4171-95e8-1762b40b3d8f.jpg",
         "color":  "N/A"
     },
     {
@@ -6268,7 +6268,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/6m2xCwz3L8FIz0FR.jpg",
+        "image":  "/cars/bcd01240-a679-4210-a051-16c13ff92161.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6284,7 +6284,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/W7LcJSbsd2Icn4Dx.jpg",
+        "image":  "/cars/201057d3-cb0f-4ee9-9e61-624eea0c392a.jpg",
         "color":  "Nero"
     },
     {
@@ -6300,7 +6300,7 @@
         "location":  "Massa-Carrara",
         "body":  "Station Wagon",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/9CxRZTfaefYFtZ1b.jpg",
+        "image":  "/cars/9ea23808-6c4a-46ef-b472-06041038bf10.jpg",
         "color":  "N/A"
     },
     {
@@ -6316,7 +6316,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/QRGgtVTgEyizGohr.jpg",
+        "image":  "/cars/6939693c-4f78-4713-82bb-a92511660850.jpg",
         "color":  "N/A"
     },
     {
@@ -6332,7 +6332,7 @@
         "location":  "Massa-Carrara",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/nk71Is007yzjJ4Cy.jpg",
+        "image":  "/cars/482b2c1f-4a48-4eca-bab8-d57b002a8b96.jpg",
         "color":  "N/A"
     },
     {
@@ -6348,7 +6348,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/KMFGMvpc3g6ldBZU.jpg",
+        "image":  "/cars/994ce09b-51ef-4511-80d9-94b681f342f1.jpg",
         "color":  "N/A"
     },
     {
@@ -6364,7 +6364,7 @@
         "location":  "Massa-Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/vKZ7AObs7Db6J3Ct.jpg",
+        "image":  "/cars/39d72284-d4b1-4d00-aa2f-a87d022030b4.jpg",
         "color":  "N/A"
     },
     {
@@ -6380,7 +6380,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/C3lZf4g67ZU00sXo.jpg",
+        "image":  "/cars/c95fc4ee-fa7b-4341-b24e-55e848c1ae90.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6396,7 +6396,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Benzina",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/5MmWfhJrqHMEC8qI.jpg",
+        "image":  "/cars/ff59dc78-423d-4984-ad91-19e700663e78.jpg",
         "color":  "Bianco"
     },
     {
@@ -6412,7 +6412,7 @@
         "location":  "Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/200/34534/5pwjRe2CzJlKhMAK.jpg",
+        "image":  "/cars/40057643-2f65-47ea-aa9f-a96e3d8c645d.jpg",
         "color":  "White"
     },
     {
@@ -6428,7 +6428,7 @@
         "location":  "Carrara",
         "body":  "Monovolume",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/FMNi4N1cJM0wgwdp.jpg",
+        "image":  "/cars/c3782f2a-bf34-4ff9-a07b-7bff0577420f.jpg",
         "color":  "Bianco"
     },
     {
@@ -6444,7 +6444,7 @@
         "location":  "Napoli",
         "body":  "Berlina due volumi",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/VMwEnuaK5jPs44rE.jpg",
+        "image":  "/cars/a546103c-8c3f-4204-80b4-817d3706fc4a.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6460,7 +6460,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/I5qSDbXojJDofDSt.jpg",
+        "image":  "/cars/2cf874c9-658c-4249-a9e1-91882fd22721.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6476,7 +6476,7 @@
         "location":  "Napoli",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/rBKMqwk6QtJTVZD2.jpg",
+        "image":  "/cars/82e26125-64b3-4035-82fa-6e9fa5e9a2a0.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6492,7 +6492,7 @@
         "location":  "Massa-Carrara",
         "body":  "SUV",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/0x250/34534/o1XEj0DfF3Ot2q3X.jpg",
+        "image":  "/cars/f918789e-44e4-4448-814c-41845c62dadf.jpg",
         "color":  "Non specificato"
     },
     {
@@ -6508,7 +6508,7 @@
         "location":  "Carrara",
         "body":  "Berlina due volumi",
         "fuel":  "Ibrida",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/tocilC0G3yEMyWaH.jpg",
+        "image":  "/cars/b4a5c40a-13f7-405e-bb57-880cda4f2291.jpg",
         "color":  "Bianco"
     },
     {
@@ -6524,7 +6524,7 @@
         "location":  "Napoli",
         "body":  "Crossover",
         "fuel":  "Diesel",
-        "image":  "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/QezCqrNKnNRS8t8O.jpg",
+        "image":  "/cars/20c79b35-085b-416b-b77f-f3629988879d.jpg",
         "color":  "Azzurro"
     }
 ]
