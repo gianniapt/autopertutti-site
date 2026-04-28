@@ -33,9 +33,9 @@ export default function CarCard({ car }: { car: Car }) {
         <Image
           src={car.image}
           alt={`${car.brand} ${car.model}`}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-500"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          width={400}
+          height={300}
+          className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
           priority={false}
           unoptimized

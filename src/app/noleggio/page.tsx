@@ -81,7 +81,7 @@ export default function NoleggioPage() {
                         <SectionReveal key={v.id} delay={i * 0.1}>
                           <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 car-card">
                             <div className="relative h-40">
-                              <Image src={v.image} alt={`${v.brand} ${v.model}`} fill className="object-cover" sizes="400px" unoptimized />
+                              <Image src={v.image} alt={`${v.brand} ${v.model}`} width={400} height={300} className="object-cover w-full h-full" unoptimized />
                             </div>
                             <div className="p-4">
                               <div className="flex justify-between items-start mb-2">
