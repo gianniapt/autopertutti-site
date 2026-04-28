@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "4441cff77e79c951",
+    "type": "split",
+    "children": [
+      {
+        "id": "101981e44c52b1ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db92c4724d319c23",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a3627a665e7b6c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c50364ab260b7cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5751a86447464cb0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "7e4d95d69b35223a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "f946ff729340a00f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "70738b330668b799",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae4ea60c7896367f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "345afbcd27d46981",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "e60519dcf98cfd5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "67bcdaab59b15d2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "c1d8299d1ba15c29",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "7debd86af6579a55",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "db92c4724d319c23",
+  "lastOpenFiles": [
+    "Без названия 3.canvas",
+    "10 Azienda/Contesto Business.md",
+    "Без названия",
+    "Без названия 2.canvas",
+    "Без названия 1.canvas",
+    "40 AI/Prompt Contract Ricerca AI.md",
+    "40 AI/Alternative Veicolo.md",
+    "40 AI/Riepilogo Lead AI.md",
+    "40 AI/Lead Scoring AI.md",
+    "40 AI/Intent Classification.md",
+    "30 Sistemi/Eventi di Conversione.md",
+    "30 Sistemi/Disponibilita Veicoli.md",
+    "30 Sistemi/Webhook e Validazione.md",
+    "30 Sistemi/Pipeline Vendita e Noleggio.md",
+    "10 Azienda/Asset di Fiducia.md",
+    "10 Azienda/Multi-sede Operativa.md",
+    "10 Azienda/Brand e Reputazione.md",
+    "00 Meta/APT Auto Per Tutti.md",
+    "00 Meta/Indice Maestro.md",
+    "Без названия.canvas"
+  ]
+}

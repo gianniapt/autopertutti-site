@@ -1,0 +1,134 @@
+{
+  "services": [
+    {
+      "id": "tagliando",
+      "name": "Tagliando",
+      "description": "Cambio olio, filtri e controllo generale secondo le specifiche del costruttore.",
+      "priceFrom": 89,
+      "duration": "2–3 ore",
+      "icon": "wrench",
+      "popular": true,
+      "includes": [
+        "Cambio olio motore",
+        "Sostituzione filtro olio",
+        "Controllo filtro aria",
+        "Ispezione freni e pneumatici",
+        "Reset spia manutenzione",
+        "Check 35 punti"
+      ]
+    },
+    {
+      "id": "freni",
+      "name": "Freni",
+      "description": "Sostituzione pastiglie e dischi freno. Garanzia 12 mesi su tutti i ricambi.",
+      "priceFrom": 120,
+      "duration": "1–2 ore",
+      "icon": "disc",
+      "popular": false,
+      "includes": [
+        "Smontaggio e ispezione",
+        "Sostituzione pastiglie (set)",
+        "Sostituzione/rettifica dischi",
+        "Spurgo liquido freni",
+        "Test di sicurezza finale"
+      ]
+    },
+    {
+      "id": "gomme",
+      "name": "Pneumatici",
+      "description": "Cambio stagionale, riparazione forature e bilanciatura ruote.",
+      "priceFrom": 15,
+      "duration": "30–60 min",
+      "icon": "circle",
+      "popular": false,
+      "includes": [
+        "Smontaggio/montaggio 4 gomme",
+        "Bilanciatura computerizzata",
+        "Controllo TPMS",
+        "Stoccaggio pneumatici stagionali"
+      ]
+    },
+    {
+      "id": "diagnosi",
+      "name": "Diagnosi elettronica",
+      "description": "Lettura centralina con strumentazione professionale Bosch.",
+      "priceFrom": 49,
+      "duration": "30–60 min",
+      "icon": "cpu",
+      "popular": true,
+      "includes": [
+        "Lettura codici errore",
+        "Reset codici",
+        "Report completo via email",
+        "Consulenza tecnica"
+      ]
+    },
+    {
+      "id": "carrozzeria",
+      "name": "Carrozzeria",
+      "description": "Riparazione danni, ritocchi vernice e ripristino da grandine.",
+      "priceFrom": 200,
+      "duration": "1–5 giorni",
+      "icon": "paint",
+      "popular": false,
+      "includes": [
+        "Valutazione danno gratuita",
+        "Riparazione lamierato",
+        "Verniciatura a forno",
+        "Lucidatura finale",
+        "Garanzia 24 mesi"
+      ]
+    },
+    {
+      "id": "revisione",
+      "name": "Revisione",
+      "description": "Revisione periodica ministeriale con prenotazione rapida.",
+      "priceFrom": 79,
+      "duration": "1–2 ore",
+      "icon": "clipboard",
+      "popular": true,
+      "includes": [
+        "Controllo emissioni",
+        "Verifica impianto frenante",
+        "Controllo luci e segnali",
+        "Ispezione sterzo e sospensioni",
+        "Documentazione ministeriale"
+      ]
+    },
+    {
+      "id": "clima",
+      "name": "Climatizzatore",
+      "description": "Ricarica gas, sanificazione e sostituzione filtri abitacolo.",
+      "priceFrom": 59,
+      "duration": "1–2 ore",
+      "icon": "wind",
+      "popular": false,
+      "includes": [
+        "Ricarica gas R134a/R1234yf",
+        "Sanificazione impianto",
+        "Sostituzione filtro abitacolo",
+        "Test efficienza"
+      ]
+    },
+    {
+      "id": "batteria",
+      "name": "Batteria & Elettrico",
+      "description": "Test batteria, sostituzione e riparazione impianto elettrico.",
+      "priceFrom": 39,
+      "duration": "30–120 min",
+      "icon": "zap",
+      "popular": false,
+      "includes": [
+        "Test capacità batteria",
+        "Sostituzione batteria",
+        "Diagnostica impianto",
+        "Verifica alternatore"
+      ]
+    }
+  ],
+  "brands": [
+    "Volkswagen", "BMW", "Mercedes-Benz", "Audi", "Toyota", "Ford",
+    "Fiat", "Renault", "Peugeot", "Jeep", "Volvo", "Opel",
+    "Honda", "Hyundai", "Kia", "Nissan", "Mazda", "Seat"
+  ]
+}

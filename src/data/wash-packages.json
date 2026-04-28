@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "id": "basic",
+      "name": "Basic",
+      "tagline": "Pulizia rapida ed efficace",
+      "priceAuto": 15,
+      "priceSUV": 18,
+      "priceVan": 22,
+      "duration": "20 min",
+      "color": "#6B7280",
+      "popular": false,
+      "includes": [
+        "Lavaggio esterno a mano",
+        "Risciacquo cerchi",
+        "Asciugatura con panno microfibra",
+        "Pulizia vetri esterni"
+      ],
+      "excludes": ["Interno", "Cera", "Lucidatura"]
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "tagline": "Il più scelto dai clienti",
+      "priceAuto": 35,
+      "priceSUV": 42,
+      "priceVan": 50,
+      "duration": "45 min",
+      "color": "#DF0000",
+      "popular": true,
+      "includes": [
+        "Tutto del pacchetto Basic",
+        "Lavaggio interno completo",
+        "Aspirazione tappeti e sedili",
+        "Pulizia cruscotto e plastiche",
+        "Trattamento pneumatici",
+        "Profumatore abitacolo"
+      ],
+      "excludes": ["Lucidatura", "Ceratura"]
+    },
+    {
+      "id": "vip",
+      "name": "VIP",
+      "tagline": "Detailing professionale completo",
+      "priceAuto": 75,
+      "priceSUV": 90,
+      "priceVan": 110,
+      "duration": "90–120 min",
+      "color": "#1A1A1A",
+      "popular": false,
+      "includes": [
+        "Tutto del pacchetto Premium",
+        "Ceratura con cera Carnauba",
+        "Lucidatura carrozzeria",
+        "Trattamento pelle/tessuto sedili",
+        "Pulizia vani portaoggetti",
+        "Pulizia motore",
+        "Certificato di cura auto"
+      ],
+      "excludes": []
+    }
+  ],
+  "addons": [
+    { "id": "ozono", "name": "Sanificazione Ozono", "price": 25, "description": "Elimina batteri, virus e cattivi odori" },
+    { "id": "polishing", "name": "Polishing Leggero", "price": 40, "description": "Rimozione graffi superficiali" },
+    { "id": "vetri", "name": "Trattamento Vetri", "price": 20, "description": "Idrorepellente per visibilità ottimale" },
+    { "id": "tessuto", "name": "Shampooing Sedili", "price": 30, "description": "Lavaggio in profondità dei tessuti" }
+  ]
+}
