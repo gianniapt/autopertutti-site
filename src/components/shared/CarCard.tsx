@@ -38,6 +38,7 @@ export default function CarCard({ car }: { car: Car }) {
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           loading="lazy"
           priority={false}
+          unoptimized
         />
         {car.badge && (
           <span className={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold ${badgeStyles[car.badgeColor || "green"]}`}>
