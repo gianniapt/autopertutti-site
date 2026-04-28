@@ -9,7 +9,7 @@ interface Car {
   model: string;
   year: number;
   price: number;
-  km: number;
+  km: number | null;
   fuel: string;
   transmission: string;
   power: string;
@@ -66,7 +66,7 @@ export default function CarCard({ car }: { car: Car }) {
           </span>
         </div>
 
-        <p className="text-xs text-gray-400 mb-3">{car.year} · {car.km.toLocaleString("it-IT")} km</p>
+        <p className="text-xs text-gray-400 mb-3">{car.year} · {car.km ? car.km.toLocaleString("it-IT") + " km" : ""}</p>
 
         <div className="grid grid-cols-3 gap-2 pt-3 border-t border-gray-100">
           <div className="flex items-center gap-1 text-xs text-gray-500">

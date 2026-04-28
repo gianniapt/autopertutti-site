@@ -11,7 +11,7 @@ import CarCard from "@/components/shared/CarCard";
 import SectionReveal from "@/components/shared/SectionReveal";
 import carsData from "@/data/cars.json";
 
-const featured = carsData.filter((c) => c.featured);
+const featured = carsData.slice(0, 6);
 
 export default function FeaturedCars() {
   return (

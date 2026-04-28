@@ -48,7 +48,6 @@ export default function CarFilter({ initialBrand = "", initialBody = "" }: Props
           (!debouncedFilters.brand || c.brand === debouncedFilters.brand) &&
           (!debouncedFilters.fuel || c.fuel === debouncedFilters.fuel) &&
           (!debouncedFilters.transmission || c.transmission === debouncedFilters.transmission) &&
-          (!debouncedFilters.body || c.body === debouncedFilters.body) &&
           c.price <= debouncedFilters.maxPrice &&
           (!debouncedFilters.location || c.location === debouncedFilters.location)
       ),

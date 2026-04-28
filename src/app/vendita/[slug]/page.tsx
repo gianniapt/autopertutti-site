@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!car) return { title: "Auto non trovata" };
   return {
     title: `${car.brand} ${car.model} ${car.year} | Auto Per Tutti`,
-    description: `${car.brand} ${car.model} ${car.year}, ${car.km.toLocaleString("it-IT")} km, ${car.fuel}, ${car.transmission}. Prezzo €${car.price.toLocaleString("it-IT")}.`,
+    description: `${car.brand} ${car.model} ${car.year}, ${car.km?.toLocaleString("it-IT") || ''} km, ${car.fuel}, ${car.transmission}. Prezzo €${car.price.toLocaleString("it-IT")}.`,
   };
 }
 
@@ -67,7 +67,7 @@ export default async function CarDetailPage({ params }: { params: Promise<{ slug
                   { icon: Settings, label: "Cambio", value: car.transmission },
                   { icon: Gauge, label: "Potenza", value: car.power },
                   { icon: Calendar, label: "Anno", value: String(car.year) },
-                  { icon: Gauge, label: "Chilometri", value: `${car.km.toLocaleString("it-IT")} km` },
+                  { icon: Gauge, label: "Chilometri", value: `${car.km?.toLocaleString("it-IT") || ''} km` },
                   { icon: MapPin, label: "Sede", value: car.location },
                 ].map(({ icon: Icon, label, value }) => (
                   <div key={label} className="bg-[#F9FAFB] rounded-xl p-4">
@@ -89,7 +89,7 @@ export default async function CarDetailPage({ params }: { params: Promise<{ slug
               <h1 className="text-2xl font-black text-[#1A1A1A] font-[family-name:var(--font-montserrat)] mb-1">
                 {car.model}
               </h1>
-              <p className="text-gray-400 text-sm mb-4">{car.year} · {car.km.toLocaleString("it-IT")} km · {car.color}</p>
+              <p className="text-gray-400 text-sm mb-4">{car.year} · {car.km?.toLocaleString("it-IT") || ''} km</p>
 
               <div className="text-4xl font-black text-[#DF0000] mb-6">
                 €{car.price.toLocaleString("it-IT")}
