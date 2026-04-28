@@ -1,15 +1,25 @@
 "use client";
 
-// v2: Force rebuild with new car data
-import { useState, useMemo, useRef, useCallback } from "react";
+import { useState, useMemo, useRef, useCallback, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { SlidersHorizontal, LayoutGrid, List, X } from "lucide-react";
 import CarCard from "@/components/shared/CarCard";
-import carsData from "@/data/cars.json";
 
-const brands = [...new Set(carsData.map((c) => c.brand))].sort();
-const fuels = [...new Set(carsData.map((c) => c.fuel))].sort();
-const transmissions = [...new Set(carsData.map((c) => c.transmission))].sort();
+interface Car {
+  id: string;
+  brand: string;
+  model: string;
+  year: number;
+  price: number;
+  km: number | null;
+  fuel: string;
+  transmission: string;
+  power: string;
+  image: string;
+  location: string;
+  badge?: string | null;
+  badgeColor?: string | null;
+}
 
 interface Props {
   initialBrand?: string;
@@ -17,6 +27,8 @@ interface Props {
 }
 
 export default function CarFilter({ initialBrand = "", initialBody = "" }: Props) {
+  const [carsData, setCarsData] = useState<Car[]>([]);
+  const [loading, setLoading] = useState(true);
   const [view, setView] = useState<"grid" | "list">("grid");
   const [filters, setFilters] = useState({
     brand: initialBrand,
@@ -30,6 +42,22 @@ export default function CarFilter({ initialBrand = "", initialBody = "" }: Props
   const [showFilters, setShowFilters] = useState(false);
   const debounceTimerRef = useRef<NodeJS.Timeout | null>(null);
 
+  useEffect(() => {
+    const fetchCars = async () => {
+      try {
+        const res = await fetch("/api/cars");
+        const data = await res.json();
+        setCarsData(data);
+      } catch (error) {
+        console.error("Failed to load cars:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCars();
+  }, []);
+
   const handleFilterChange = useCallback(
     (newFilters: typeof filters) => {
       setFilters(newFilters);
@@ -41,6 +69,10 @@ export default function CarFilter({ initialBrand = "", initialBody = "" }: Props
     []
   );
 
+  const brands = useMemo(() => [...new Set(carsData.map((c) => c.brand))].sort(), [carsData]);
+  const fuels = useMemo(() => [...new Set(carsData.map((c) => c.fuel))].sort(), [carsData]);
+  const transmissions = useMemo(() => [...new Set(carsData.map((c) => c.transmission))].sort(), [carsData]);
+
   const filtered = useMemo(
     () =>
       carsData.filter(
@@ -51,7 +83,7 @@ export default function CarFilter({ initialBrand = "", initialBody = "" }: Props
           c.price <= debouncedFilters.maxPrice &&
           (!debouncedFilters.location || c.location === debouncedFilters.location)
       ),
-    [debouncedFilters]
+    [debouncedFilters, carsData]
   );
 
   const reset = () => {
@@ -186,7 +218,11 @@ export default function CarFilter({ initialBrand = "", initialBody = "" }: Props
       </AnimatePresence>
 
       {/* Results */}
-      {filtered.length === 0 ? (
+      {loading ? (
+        <div className="text-center py-20 text-gray-400">
+          <p className="text-lg font-medium mb-2">Caricamento auto...</p>
+        </div>
+      ) : filtered.length === 0 ? (
         <div className="text-center py-20 text-gray-400">
           <p className="text-lg font-medium mb-2">Nessun risultato</p>
           <p className="text-sm">Prova a modificare i filtri</p>
