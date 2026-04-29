@@ -11,7 +11,7 @@
     "passengers": 5,
     "fuel": "Ibrido",
     "transmission": "e-DCT",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/lancia-nuova-ypsilon-ibrida-nlt-0.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/lancia-nuova-ypsilon-ibrida-nlt-0.png"
   },
   {
     "id": "fiat-panda-nlt-1",
@@ -25,7 +25,7 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "N/A",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/fiat-panda-nlt-1.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/fiat-panda-nlt-1.png"
   },
   {
     "id": "hyundai-i10-nlt-2",
@@ -39,7 +39,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/hyundai-i10-nlt-2.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/hyundai-i10-nlt-2.png"
   },
   {
     "id": "opel-corsa-nlt-3",
@@ -53,7 +53,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/opel-corsa-nlt-3.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/opel-corsa-nlt-3.png"
   },
   {
     "id": "renault-nuova-clio-nlt-4",
@@ -67,7 +67,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/renault-nuova-clio-nlt-4.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/renault-nuova-clio-nlt-4.png"
   },
   {
     "id": "citroën-nuova-c3-nlt-5",
@@ -81,7 +81,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "Manuale",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/citroën-nuova-c3-nlt-5.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/citroën-nuova-c3-nlt-5.png"
   },
   {
     "id": "citroën-ë-c3-nlt-6",
@@ -95,7 +95,7 @@
     "passengers": 5,
     "fuel": "Elettrico",
     "transmission": "Automatico",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/citroën-ë-c3-nlt-6.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/citroën-ë-c3-nlt-6.png"
   },
   {
     "id": "citroën-nuovo-c5-aircross-nlt-7",
@@ -109,7 +109,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "EAT8",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/citroën-nuovo-c5-aircross-nlt-7.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/citroën-nuovo-c5-aircross-nlt-7.png"
   },
   {
     "id": "peugeot-nuova-208-nlt-8",
@@ -123,7 +123,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/peugeot-nuova-208-nlt-8.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/peugeot-nuova-208-nlt-8.png"
   },
   {
     "id": "ford-nuova-puma-nlt-9",
@@ -137,7 +137,7 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "N/A",
-    "image": "https://autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com/rentals/ford-nuova-puma-nlt-9.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/ford-nuova-puma-nlt-9.png"
   },
   {
     "id": "lancia-ypsilon-short-0",
