@@ -1,6 +1,7 @@
 import Link from "next/link";
 import carsData from "@/data/cars.json";
 import SectionReveal from "@/components/shared/SectionReveal";
+import BrandLogo from "@/components/shared/BrandLogo";
 
 const brandOrder = [
   "Volkswagen", "BMW", "Toyota", "Audi", "Mercedes-Benz",
@@ -20,26 +21,36 @@ export default function BrandGrid() {
           <p className="text-center text-gray-400 text-xs font-semibold uppercase tracking-widest mb-6">
             Sfoglia per marca
           </p>
-          <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
+          <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
             {brandOrder.map((brand) => (
               <Link
                 key={brand}
                 href={`/vendita?brand=${encodeURIComponent(brand)}`}
-                className="group flex items-center gap-1.5 px-4 py-2 bg-[#F9FAFB] hover:bg-[#DF0000] text-gray-700 hover:text-white rounded-full border border-gray-200 hover:border-[#DF0000] text-sm font-medium transition-all duration-200"
+                className="group flex flex-col items-center gap-2 p-3 hover:scale-110 transition-transform duration-200"
               >
-                {brand}
-                {brandCounts[brand] && (
-                  <span className="text-xs text-gray-400 group-hover:text-white/70">
-                    ({brandCounts[brand]})
-                  </span>
-                )}
+                <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center bg-white rounded-lg shadow-sm group-hover:shadow-md group-hover:bg-gray-50 transition-all">
+                  <BrandLogo brand={brand} size="lg" />
+                </div>
+                <div className="text-center">
+                  <p className="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-[#DF0000]">
+                    {brand}
+                  </p>
+                  {brandCounts[brand] && (
+                    <span className="text-xs text-gray-400">
+                      {brandCounts[brand]}
+                    </span>
+                  )}
+                </div>
               </Link>
             ))}
             <Link
               href="/vendita"
-              className="px-4 py-2 bg-[#1A1A1A] text-white rounded-full text-sm font-bold hover:bg-[#DF0000] transition-colors duration-200"
+              className="flex flex-col items-center justify-center gap-2 p-3 group hover:scale-110 transition-transform duration-200"
             >
-              Tutte →
+              <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center bg-[#1A1A1A] text-white rounded-lg shadow-sm group-hover:bg-[#DF0000] group-hover:shadow-md transition-all font-bold text-lg">
+                →
+              </div>
+              <p className="text-xs sm:text-sm font-medium text-gray-700 group-hover:text-[#DF0000]">Tutte</p>
             </Link>
           </div>
         </SectionReveal>
