@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/components/shared/SocialIcons";
 import SectionReveal from "@/components/shared/SectionReveal";
+import LeadForm from "@/components/contatti/LeadForm";
 
 export const metadata: Metadata = {
   title: "Contatti Auto Per Tutti — 3 Sedi Napoli, Agnano, Carrara — Tel/WhatsApp",
@@ -85,6 +86,21 @@ export default function ContattiPage() {
               info@autopertutti.it
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Lead Form */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionReveal className="mb-12">
+            <p className="text-center text-gray-400 text-xs font-semibold uppercase tracking-widest mb-3">
+              Inviaci un messaggio
+            </p>
+            <h2 className="text-center text-3xl font-black text-[#1A1A1A] font-[family-name:var(--font-montserrat)]">
+              Raccontaci cosa cerchi
+            </h2>
+          </SectionReveal>
+          <LeadForm />
         </div>
       </section>
 
