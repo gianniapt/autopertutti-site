@@ -1,0 +1,8 @@
+{
+  "protectionBypass": [
+    {
+      "paths": ["/api/**"],
+      "allowedTokens": ["any"]
+    }
+  ]
+}
