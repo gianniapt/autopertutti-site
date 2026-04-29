@@ -38,9 +38,16 @@
 ### Testing & Deployment
 - [x] TypeScript compilation (0 errors)
 - [x] Production build successful
-- [x] Deployed to Vercel
-- [x] Chat API tested and working
-- [x] Lead form API tested
+- [x] Deployed to Vercel (https://autopertutti-site-one.vercel.app)
+- [x] Chat API tested and working in production ✓
+  - Tested: "Quanto costa un tagliando?" → €89 response
+  - Tested: "Quanto costano le gomme?" → €15 response
+  - Tested: "Qual è il prezzo del noleggio?" → €7-9/day response
+  - Tested: Purchase intent detection → correctly asks for name/phone
+- [x] Lead form API tested (awaiting N8N activation)
+- [x] Fixed edge runtime issue (streaming was corrupted)
+  - Changed to serverless Node.js runtime
+  - All Italian responses now clear and correct
 
 ### Documentation
 - [x] Setup guide created (VAPI-SETUP-GUIDE.md)

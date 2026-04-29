@@ -54,14 +54,16 @@ package.json                                     - Added setup-vapi script
 ## 🚀 Current Status
 
 ### Live & Working
-- ✅ Chat API streaming with Italian responses
+- ✅ Chat API streaming with Italian responses (fixed edge runtime issue)
 - ✅ AI Chat widget UI and interactions
 - ✅ Purchase intent detection
 - ✅ Lead form capture from chat
 - ✅ MultiMessengerWidget with new buttons
-- ✅ Deployed to Vercel: https://autopertutti-site-one.vercel.app
+- ✅ Deployed to Vercel (production ready): https://autopertutti-site-one.vercel.app
+- ✅ All pricing queries returning correct Italian responses
 
-### Awaiting VAPI Configuration
+### Awaiting Configuration
+- ⏳ N8N webhook activation (for lead capture → Airtable)
 - ⏳ Voice call feature (requires VAPI credentials)
 - ⏳ Live voice AI responses in Italian
 
