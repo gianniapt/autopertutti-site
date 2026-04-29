@@ -1,5 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 
+const corsHeaders = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
+export async function OPTIONS() {
+  return NextResponse.json({}, { headers: corsHeaders });
+}
+
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
@@ -9,7 +19,7 @@ export async function POST(request: NextRequest) {
     if (!name || !email || !phone) {
       return NextResponse.json(
         { error: "Name, email, and phone are required" },
-        { status: 400 }
+        { status: 400, headers: corsHeaders }
       );
     }
 
@@ -19,7 +29,7 @@ export async function POST(request: NextRequest) {
       console.error("N8N_WEBHOOK_URL not configured");
       return NextResponse.json(
         { error: "Lead processing is not configured" },
-        { status: 500 }
+        { status: 500, headers: corsHeaders }
       );
     }
 
@@ -44,7 +54,7 @@ export async function POST(request: NextRequest) {
       console.error("N8N webhook failed:", n8nResponse.status);
       return NextResponse.json(
         { error: "Failed to process lead" },
-        { status: 500 }
+        { status: 500, headers: corsHeaders }
       );
     }
 
@@ -53,13 +63,13 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json(
       { success: true, message: "Lead received successfully" },
-      { status: 200 }
+      { status: 200, headers: corsHeaders }
     );
   } catch (error) {
     console.error("API error:", error);
     return NextResponse.json(
       { error: "Internal server error" },
-      { status: 500 }
+      { status: 500, headers: corsHeaders }
     );
   }
 }
