@@ -5,22 +5,22 @@ interface BrandLogoProps {
   size?: "sm" | "md" | "lg";
 }
 
-// Brand logo URLs from worldvectorlogo.com
+// Brand logo URLs from Clearbit API
 const brandLogos: Record<string, string> = {
-  "Volkswagen": "https://worldvectorlogo.com/svg/volkswagen-2.svg",
-  "BMW": "https://worldvectorlogo.com/svg/bmw-7.svg",
-  "Toyota": "https://worldvectorlogo.com/svg/toyota-2.svg",
-  "Audi": "https://worldvectorlogo.com/svg/audi-2.svg",
-  "Mercedes-Benz": "https://worldvectorlogo.com/svg/mercedes-benz-3.svg",
-  "Fiat": "https://worldvectorlogo.com/svg/fiat-2.svg",
-  "Ford": "https://worldvectorlogo.com/svg/ford-2.svg",
-  "Jeep": "https://worldvectorlogo.com/svg/jeep-2.svg",
-  "Renault": "https://worldvectorlogo.com/svg/renault-2.svg",
-  "Porsche": "https://worldvectorlogo.com/svg/porsche-2.svg",
-  "Peugeot": "https://worldvectorlogo.com/svg/peugeot-2.svg",
-  "Volvo": "https://worldvectorlogo.com/svg/volvo-3.svg",
-  "Opel": "https://worldvectorlogo.com/svg/opel-2.svg",
-  "smart": "https://worldvectorlogo.com/svg/smart-2.svg",
+  "Volkswagen": "https://logo.clearbit.com/volkswagen.com?size=200",
+  "BMW": "https://logo.clearbit.com/bmw.com?size=200",
+  "Toyota": "https://logo.clearbit.com/toyota.com?size=200",
+  "Audi": "https://logo.clearbit.com/audi.com?size=200",
+  "Mercedes-Benz": "https://logo.clearbit.com/mercedes-benz.com?size=200",
+  "Fiat": "https://logo.clearbit.com/fiat.com?size=200",
+  "Ford": "https://logo.clearbit.com/ford.com?size=200",
+  "Jeep": "https://logo.clearbit.com/jeep.com?size=200",
+  "Renault": "https://logo.clearbit.com/renault.com?size=200",
+  "Porsche": "https://logo.clearbit.com/porsche.com?size=200",
+  "Peugeot": "https://logo.clearbit.com/peugeot.com?size=200",
+  "Volvo": "https://logo.clearbit.com/volvo.com?size=200",
+  "Opel": "https://logo.clearbit.com/opel.com?size=200",
+  "smart": "https://logo.clearbit.com/smart.com?size=200",
 };
 
 const sizeMap = {

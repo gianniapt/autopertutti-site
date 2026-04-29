@@ -15,8 +15,8 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "worldvectorlogo.com",
-        pathname: "/svg/**",
+        hostname: "logo.clearbit.com",
+        pathname: "/**",
       },
       {
         protocol: "https",
