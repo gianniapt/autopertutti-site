@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
-import { Phone, X, MessageCircle } from "lucide-react";
+import { useState, useRef } from "react";
+import { Phone, X, MessageCircle, Bot, Mic, PhoneOff } from "lucide-react";
+import { AiChatWidget } from "./AiChatWidget";
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -45,42 +46,118 @@ const channels = [
 
 export default function MultiMessengerWidget() {
   const [open, setOpen] = useState(false);
+  const [chatOpen, setChatOpen] = useState(false);
+  const [isVapiActive, setIsVapiActive] = useState(false);
+  const vapiRef = useRef<any>(null);
+
+  const handleVoiceCall = async () => {
+    if (isVapiActive && vapiRef.current) {
+      vapiRef.current.stop();
+      setIsVapiActive(false);
+      return;
+    }
+
+    try {
+      const { default: Vapi } = await import("@vapi-ai/web");
+      const vapi = new Vapi(process.env.NEXT_PUBLIC_VAPI_PUBLIC_KEY!);
+      vapiRef.current = vapi;
+
+      vapi.on("call-start", () => setIsVapiActive(true));
+      vapi.on("call-end", () => {
+        setIsVapiActive(false);
+        vapiRef.current = null;
+      });
+      vapi.on("error", () => {
+        setIsVapiActive(false);
+        vapiRef.current = null;
+      });
+
+      await vapi.start(process.env.NEXT_PUBLIC_VAPI_ASSISTANT_ID!);
+      setOpen(false);
+    } catch (error) {
+      console.error("VAPI error:", error);
+      setIsVapiActive(false);
+    }
+  };
 
   return (
-    <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col items-end gap-2.5">
-      {open && (
-        <>
-          {channels.map((ch, i) => (
-            <a
-              key={ch.label}
-              href={ch.href}
-              target={ch.external ? "_blank" : undefined}
-              rel={ch.external ? "noopener noreferrer" : undefined}
-              className={`flex items-center gap-2.5 ${ch.bg} text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-lg hover:opacity-90 hover:scale-105 transition-all duration-200`}
+    <>
+      <AiChatWidget isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+
+      <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col items-end gap-2.5">
+        {open && (
+          <>
+            {/* Standard channels */}
+            {channels.map((ch, i) => (
+              <a
+                key={ch.label}
+                href={ch.href}
+                target={ch.external ? "_blank" : undefined}
+                rel={ch.external ? "noopener noreferrer" : undefined}
+                className={`flex items-center gap-2.5 ${ch.bg} text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-lg hover:opacity-90 hover:scale-105 transition-all duration-200`}
+                style={{
+                  animation: `slideUp 0.2s ease ${i * 0.05}s both`,
+                }}
+              >
+                {ch.icon}
+                {ch.label}
+              </a>
+            ))}
+
+            {/* Chat AI */}
+            <button
+              onClick={() => {
+                setChatOpen(true);
+                setOpen(false);
+              }}
+              className={`flex items-center gap-2.5 bg-[#DF0000] text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-lg hover:opacity-90 hover:scale-105 transition-all duration-200`}
               style={{
-                animation: `slideUp 0.2s ease ${i * 0.05}s both`,
+                animation: `slideUp 0.2s ease ${channels.length * 0.05}s both`,
               }}
             >
-              {ch.icon}
-              {ch.label}
-            </a>
-          ))}
-        </>
-      )}
+              <Bot className="w-5 h-5" />
+              Chat AI
+            </button>
 
-      <button
-        onClick={() => setOpen(!open)}
-        className={`w-14 h-14 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95 ${
-          open ? "bg-[#1A1A1A] rotate-90" : "bg-[#DF0000]"
-        }`}
-        aria-label={open ? "Chiudi" : "Contattaci"}
-      >
-        {open ? (
-          <X className="w-6 h-6 text-white" />
-        ) : (
-          <MessageCircle className="w-7 h-7 text-white" />
+            {/* Call AI */}
+            <button
+              onClick={handleVoiceCall}
+              className={`flex items-center gap-2.5 ${
+                isVapiActive ? "bg-[#7C3AED] vapi-active" : "bg-[#7C3AED]"
+              } text-white text-sm font-bold px-4 py-2.5 rounded-full shadow-lg hover:opacity-90 hover:scale-105 transition-all duration-200`}
+              style={{
+                animation: `slideUp 0.2s ease ${(channels.length + 1) * 0.05}s both`,
+              }}
+            >
+              {isVapiActive ? (
+                <>
+                  <PhoneOff className="w-5 h-5" />
+                  Termina
+                </>
+              ) : (
+                <>
+                  <Mic className="w-5 h-5" />
+                  Chiama AI
+                </>
+              )}
+            </button>
+          </>
         )}
-      </button>
-    </div>
+
+        <button
+          onClick={() => setOpen(!open)}
+          className={`w-14 h-14 rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95 ${
+            open ? "bg-[#1A1A1A] rotate-90" : "bg-[#DF0000]"
+          }`}
+          aria-label={open ? "Chiudi" : "Contattaci"}
+        >
+          {open ? (
+            <X className="w-6 h-6 text-white" />
+          ) : (
+            <MessageCircle className="w-7 h-7 text-white" />
+          )}
+        </button>
+      </div>
+    </>
   );
 }
