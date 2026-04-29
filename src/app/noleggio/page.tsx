@@ -86,10 +86,26 @@ export default function NoleggioPage() {
                             <div className="p-4">
                               <div className="flex justify-between items-start mb-2">
                                 <div>
-                                  <p className="text-xs text-gray-400">{v.brand}</p>
+                                  <div className="flex items-center gap-2 mb-1">
+                                    <p className="text-xs text-gray-400">{v.brand}</p>
+                                    {v.rentalType === "long" ? (
+                                      <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-blue-100 text-blue-700">NLT</span>
+                                    ) : (
+                                      <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-green-100 text-green-700">Breve</span>
+                                    )}
+                                  </div>
                                   <h3 className="font-bold text-[#1A1A1A]">{v.model}</h3>
                                 </div>
-                                <span className="text-[#DF0000] font-black text-xl">€{v.pricePerDay}<span className="text-xs text-gray-400 font-normal">/gg</span></span>
+                                <div className="text-right">
+                                  {v.rentalType === "long" ? (
+                                    <>
+                                      <div className="text-[#DF0000] font-black text-xl">€{v.pricePerMonth}<span className="text-xs text-gray-400 font-normal">/mese</span></div>
+                                      <div className="text-xs text-gray-400">≈ €{v.pricePerDay}/gg</div>
+                                    </>
+                                  ) : (
+                                    <span className="text-[#DF0000] font-black text-xl">€{v.pricePerDay}<span className="text-xs text-gray-400 font-normal">/gg</span></span>
+                                  )}
+                                </div>
                               </div>
                               <p className="text-xs text-gray-500 mb-3">{v.description}</p>
                               <div className="grid grid-cols-3 gap-2 text-xs text-gray-400 border-t border-gray-100 pt-3">
