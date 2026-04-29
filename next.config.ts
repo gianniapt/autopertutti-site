@@ -20,7 +20,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "autopertutti-images.8d408178f36654003d003f5b4ba83a1.r2.cloudflarestorage.com",
+        hostname: "autopertutti-images.8d408178f366540033d003f5b4ba83a1.r2.cloudflarestorage.com",
         pathname: "/**",
       },
     ],
