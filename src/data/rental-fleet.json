@@ -11,7 +11,7 @@
     "passengers": 5,
     "fuel": "Ibrido",
     "transmission": "e-DCT",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/lancia-nuova-ypsilon-ibrida-nlt-0.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/lancia-nuova-ypsilon-ibrida-nlt-0.png"
   },
   {
     "id": "fiat-panda-nlt-1",
@@ -25,7 +25,7 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "N/A",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/fiat-panda-nlt-1.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/fiat-panda-nlt-1.png"
   },
   {
     "id": "hyundai-i10-nlt-2",
@@ -39,7 +39,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/hyundai-i10-nlt-2.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/hyundai-i10-nlt-2.png"
   },
   {
     "id": "opel-corsa-nlt-3",
@@ -53,7 +53,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/opel-corsa-nlt-3.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/opel-corsa-nlt-3.png"
   },
   {
     "id": "renault-nuova-clio-nlt-4",
@@ -67,7 +67,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/renault-nuova-clio-nlt-4.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/renault-nuova-clio-nlt-4.png"
   },
   {
     "id": "citroën-nuova-c3-nlt-5",
@@ -81,7 +81,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "Manuale",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/citroën-nuova-c3-nlt-5.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/citroën-nuova-c3-nlt-5.png"
   },
   {
     "id": "citroën-ë-c3-nlt-6",
@@ -95,7 +95,7 @@
     "passengers": 5,
     "fuel": "Elettrico",
     "transmission": "Automatico",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/citroën-ë-c3-nlt-6.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/citroën-ë-c3-nlt-6.png"
   },
   {
     "id": "citroën-nuovo-c5-aircross-nlt-7",
@@ -109,7 +109,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "EAT8",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/citroën-nuovo-c5-aircross-nlt-7.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/citroën-nuovo-c5-aircross-nlt-7.png"
   },
   {
     "id": "peugeot-nuova-208-nlt-8",
@@ -123,7 +123,7 @@
     "passengers": 5,
     "fuel": "N/A",
     "transmission": "N/A",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/peugeot-nuova-208-nlt-8.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/peugeot-nuova-208-nlt-8.png"
   },
   {
     "id": "ford-nuova-puma-nlt-9",
@@ -137,7 +137,7 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "N/A",
-    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/autopertutti-images/rentals/ford-nuova-puma-nlt-9.png"
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/ford-nuova-puma-nlt-9.png"
   },
   {
     "id": "lancia-ypsilon-short-0",
@@ -150,7 +150,7 @@
     "passengers": 5,
     "fuel": "Ibrido",
     "transmission": "Automatico",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/lancia-ypsilon-ibrid.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/lancia-ypsilon-short-0.jpg",
     "rentalType": "short"
   },
   {
@@ -164,7 +164,7 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/fiat-panda-hybrid-1.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/fiat-panda-short-1.jpg",
     "rentalType": "short"
   },
   {
@@ -178,7 +178,7 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/hyundai-i10-connectl.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/hyundai-i10-short-2.jpg",
     "rentalType": "short"
   },
   {
@@ -192,7 +192,7 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/opel-corsa-edition-3.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/opel-corsa-short-3.jpg",
     "rentalType": "short"
   },
   {
@@ -206,7 +206,7 @@
     "passengers": 5,
     "fuel": "Diesel",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/renault-clio-evoluti.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/renault-clio-short-4.jpg",
     "rentalType": "short"
   },
   {
@@ -220,7 +220,7 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/peugeot-208-style-pu.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/peugeot-208-short-5.jpg",
     "rentalType": "short"
   },
   {
@@ -234,7 +234,7 @@
     "passengers": 5,
     "fuel": "Hybrid",
     "transmission": "Automatico",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/ford-puma-hybrid-6.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/ford-puma-short-6.jpg",
     "rentalType": "short"
   },
   {
@@ -248,7 +248,7 @@
     "passengers": 5,
     "fuel": "Diesel",
     "transmission": "Automatico",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/jeep-renegade-7.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/jeep-renegade-short-7.jpg",
     "rentalType": "short"
   },
   {
@@ -262,7 +262,7 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/volkswagen-t-cross-8.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/volkswagen-t-cross-short-8.jpg",
     "rentalType": "short"
   },
   {
@@ -276,7 +276,7 @@
     "passengers": 5,
     "fuel": "Diesel",
     "transmission": "Automatico",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/bmw-320-9.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/bmw-320-short-9.jpg",
     "rentalType": "short"
   },
   {
@@ -290,7 +290,7 @@
     "passengers": 5,
     "fuel": "Benzina",
     "transmission": "Automatico",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/audi-a4-10.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/audi-a4-short-10.jpg",
     "rentalType": "short"
   },
   {
@@ -304,7 +304,7 @@
     "passengers": 3,
     "fuel": "Diesel",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/fiat-ducato-11.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/fiat-ducato-short-11.jpg",
     "rentalType": "short"
   },
   {
@@ -318,7 +318,7 @@
     "passengers": 3,
     "fuel": "Diesel",
     "transmission": "Manuale",
-    "image": "https://cdn.dealerk.it/dealer/datafiles/vehicle/images/480x0/34534/renault-master-12.jpg",
+    "image": "https://pub-dc57e1b601e3496ab59998f51d38fb11.r2.dev/rentals/renault-master-short-12.jpg",
     "rentalType": "short"
   }
 ]
