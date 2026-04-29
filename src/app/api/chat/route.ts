@@ -1,4 +1,4 @@
-export const runtime = "edge";
+// export const runtime = "edge";
 
 const SYSTEM_PROMPT = `Sei l'assistente virtuale di Auto Per Tutti. Parla SEMPRE in italiano, tono cordiale.
 Sii conciso (max 3-4 paragrafi). Non inventare dati.
