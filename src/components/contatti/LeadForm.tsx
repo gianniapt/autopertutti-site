@@ -35,6 +35,14 @@ export default function LeadForm() {
     setError("");
 
     try {
+      // Track event in GA4
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "lead_submit", {
+          service: form.service,
+          form_id: "contact_form",
+        });
+      }
+
       const res = await fetch("/api/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -43,6 +51,14 @@ export default function LeadForm() {
 
       if (!res.ok) {
         throw new Error("Failed to submit form");
+      }
+
+      // Track conversion
+      if (typeof window !== "undefined" && (window as any).gtag) {
+        (window as any).gtag("event", "conversion", {
+          value: 1,
+          currency: "EUR",
+        });
       }
 
       setSubmitted(true);

@@ -8,9 +8,10 @@ import MultiMessengerWidget from "@/components/shared/MultiMessengerWidget";
 import LenisProvider from "@/components/shared/LenisProvider";
 import StructuredData from "@/components/shared/StructuredData";
 
-// Fill these in when domain is connected
-const GTM_ID = "";      // e.g. "GTM-XXXXXXX"
-const CLARITY_ID = "";  // e.g. "abcde12345"
+// Analytics configuration
+const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "";
+const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID || "";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -63,6 +64,21 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','${GTM_ID}');
           `}</Script>
+        )}
+
+        {/* Google Analytics 4 */}
+        {GA_ID && (
+          <>
+            <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+            <Script id="ga4" strategy="afterInteractive">{`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_ID}', {
+                page_path: window.location.pathname,
+              });
+            `}</Script>
+          </>
         )}
 
         {/* Microsoft Clarity — attivare con dominio reale */}
