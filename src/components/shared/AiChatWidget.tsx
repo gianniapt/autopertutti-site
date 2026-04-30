@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import { X, Send, Bot, Loader2 } from "lucide-react";
+import { analytics } from "@/lib/analytics";
+import { getABVariant } from "@/lib/abTest";
 
 interface Message {
   id: string;
@@ -22,14 +24,22 @@ export function AiChatWidget({ isOpen, onClose }: { isOpen: boolean; onClose: ()
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const abortRef = useRef<AbortController | null>(null);
 
-  // Initialize with welcome message
+  // Initialize with welcome message + A/B testing
   useEffect(() => {
     if (isOpen && messages.length === 0) {
+      analytics.chatOpened();
+      const variant = getABVariant("welcome_message", ["A", "B"]);
+      analytics.abVariant("welcome_message", variant);
+
+      const welcomeText = variant === "B"
+        ? "Ciao! 👋 Cerchi un'auto o hai bisogno di assistenza per officina/noleggio?"
+        : "Ciao! Sono l'assistente AI di Auto Per Tutti. Come posso aiutarti?";
+
       setMessages([
         {
           id: "1",
           role: "assistant",
-          content: "Ciao! Sono l'assistente AI di Auto Per Tutti. Come posso aiutarti?",
+          content: welcomeText,
         },
       ]);
     }
@@ -74,8 +84,12 @@ export function AiChatWidget({ isOpen, onClose }: { isOpen: boolean; onClose: ()
     const userMessage: Message = { id: userMessageId, role: "user", content: input };
     setMessages(prev => [...prev, userMessage]);
 
+    // Track message sent
+    analytics.chatMessageSent("ai_chat");
+
     // Check for purchase intent
     if (checkPurchaseIntent(input)) {
+      analytics.leadFormShown("ai_chat");
       setTimeout(() => setShowLeadForm(true), 800);
     }
 
@@ -125,6 +139,14 @@ export function AiChatWidget({ isOpen, onClose }: { isOpen: boolean; onClose: ()
           return updated;
         });
       }
+
+      // Track intent keywords in response
+      const keywords = ["comprare", "preventivo", "appuntamento", "finanziamento"];
+      keywords.forEach(kw => {
+        if (assistantContent.toLowerCase().includes(kw)) {
+          analytics.purchaseIntentDetected(kw);
+        }
+      });
     } catch (err: unknown) {
       if (err instanceof Error && err.name !== "AbortError") {
         setError("Errore nella comunicazione con l'AI. Riprova.");
@@ -165,6 +187,7 @@ export function AiChatWidget({ isOpen, onClose }: { isOpen: boolean; onClose: ()
       }
 
       setLeadSent(true);
+      analytics.leadSubmitted("ai_chat", "ai_chat");
       setLeadFormData({ name: "", phone: "", email: "" });
       setTimeout(() => {
         setShowLeadForm(false);
@@ -173,6 +196,10 @@ export function AiChatWidget({ isOpen, onClose }: { isOpen: boolean; onClose: ()
     } catch (err) {
       setError("Errore nell'invio del form. Riprova.");
     }
+  };
+
+  const handleFeedback = (rating: "positive" | "negative") => {
+    analytics.messageFeedback(rating);
   };
 
   if (!isOpen) return null;
@@ -199,20 +226,53 @@ export function AiChatWidget({ isOpen, onClose }: { isOpen: boolean; onClose: ()
 
         {/* Messages Area */}
         <div ref={scrollRef} className="flex-1 overflow-y-auto bg-[#F9FAFB] px-4 py-4 space-y-3">
+          {messages.length === 1 && messages[0].role === "assistant" && (
+            <div className="flex flex-wrap gap-2">
+              {["💰 Prezzi noleggio", "🔧 Tagliando da €89", "🚗 Auto usata"].map(q => (
+                <button
+                  key={q}
+                  onClick={() => {
+                    setInput(q);
+                  }}
+                  className="text-xs px-3 py-1 rounded-full border border-gray-300 bg-white hover:border-[#DF0000] hover:text-[#DF0000] transition"
+                >
+                  {q}
+                </button>
+              ))}
+            </div>
+          )}
+
           {messages.map(msg => (
-            <div
-              key={msg.id}
-              className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
-            >
+            <div key={msg.id}>
               <div
-                className={`max-w-xs px-4 py-2 rounded-lg text-sm ${
-                  msg.role === "user"
-                    ? "bg-[#DF0000] text-white rounded-tr-none"
-                    : "bg-white text-gray-800 rounded-tl-none border border-gray-200"
-                }`}
+                className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"}`}
               >
-                {msg.content}
+                <div
+                  className={`max-w-xs px-4 py-2 rounded-lg text-sm ${
+                    msg.role === "user"
+                      ? "bg-[#DF0000] text-white rounded-tr-none"
+                      : "bg-white text-gray-800 rounded-tl-none border border-gray-200"
+                  }`}
+                >
+                  {msg.content}
+                </div>
               </div>
+              {msg.role === "assistant" && msg.content && !isStreaming && (
+                <div className="flex gap-1 mt-1 justify-start">
+                  <button
+                    onClick={() => handleFeedback("positive")}
+                    className="text-gray-400 hover:text-green-500 text-xs"
+                  >
+                    👍
+                  </button>
+                  <button
+                    onClick={() => handleFeedback("negative")}
+                    className="text-gray-400 hover:text-red-500 text-xs"
+                  >
+                    👎
+                  </button>
+                </div>
+              )}
             </div>
           ))}
 

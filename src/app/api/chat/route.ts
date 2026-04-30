@@ -1,5 +1,8 @@
 // export const runtime = "edge";
 
+import carsData from "@/data/cars.json";
+import rentalData from "@/data/rental-fleet.json";
+
 const SYSTEM_PROMPT = `Sei l'assistente virtuale di Auto Per Tutti. Parla SEMPRE in italiano, tono cordiale.
 Sii conciso (max 3-4 paragrafi). Non inventare dati.
 
@@ -22,7 +25,48 @@ Garanzia 12 mesi su tutti gli interventi.
 AUTOLAVAGGIO: Basic €15/auto, Premium €35/auto, VIP €75/auto (ceratura Carnauba).
 
 Quando il cliente mostra interesse concreto, chiedi nome e telefono
-per essere ricontattato entro 30 minuti.`;
+per essere ricontattato entro 30 minuti.
+
+CROSS-SELL (suggerisci sempre quando pertinente):
+- Officina richiesta → menziona anche Autolavaggio post-intervento (€15-35)
+- Vendita auto → offri anche opzione Noleggio NLT se budget < €15k
+- Noleggio → menziona garanzia inclusa e assicurazione disponibile
+
+PRE-APPUNTAMENTO (quando cliente chiede appuntamento/prenotazione):
+1. Chiedi: "Che marca e modello hai?"
+2. Chiedi: "Quanti km ha?"
+3. Chiedi: "C'è qualche problema specifico?"
+4. Poi: "Perfetto! Per confermare l'appuntamento ho bisogno del tuo nome e telefono."`;
+
+function extractPreferences(messages: Array<{ role: string; content: string }>) {
+  const text = messages.map(m => m.content).join(" ").toLowerCase();
+
+  return {
+    budget: (() => {
+      const match = text.match(/€\s?(\d+)|\d+\s?k\s?euro|\d+\s?mila/);
+      return match ? parseInt(match[1] || "0") : null;
+    })(),
+    fuel: ["diesel", "benzina", "ibrido", "elettrico", "hybrid"].find(f => text.includes(f)),
+    transmission: ["automatico", "manuale"].find(t => text.includes(t)),
+    isRental: ["noleggio", "affittare", "nlt"].some(w => text.includes(w)),
+  };
+}
+
+function filterCars(prefs: ReturnType<typeof extractPreferences>) {
+  let filtered = [...carsData];
+
+  if (prefs.budget) {
+    filtered = filtered.filter(c => c.price <= prefs.budget! + 2000); // allow 2k buffer
+  }
+  if (prefs.fuel) {
+    filtered = filtered.filter(c => c.fuel.toLowerCase().includes(prefs.fuel!));
+  }
+  if (prefs.transmission) {
+    filtered = filtered.filter(c => c.transmission.toLowerCase().includes(prefs.transmission!));
+  }
+
+  return filtered.slice(0, 5).map(c => `${c.brand} ${c.model} ${c.year} — ${c.fuel} ${c.transmission} — ${c.km.toLocaleString()}km — €${c.price.toLocaleString()}`).join("\n");
+}
 
 export async function POST(request: Request) {
   try {
@@ -39,6 +83,14 @@ export async function POST(request: Request) {
       return new Response("Missing OPENROUTER_API_KEY", { status: 500 });
     }
 
+    const prefs = extractPreferences(messages);
+    const carsContext = filterCars(prefs);
+
+    const dynamicPrompt = `${SYSTEM_PROMPT}
+
+VEICOLI DISPONIBILI OGGI (mostra questi quando pertinenti):
+${carsContext || "Nessun veicolo corrisponde esattamente. Contattaci per altre opzioni."}`;
+
     const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
       method: "POST",
       headers: {
@@ -50,7 +102,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         model: "openai/gpt-4o-mini",
         messages: [
-          { role: "system", content: SYSTEM_PROMPT },
+          { role: "system", content: dynamicPrompt },
           ...messages,
         ],
         stream: true,

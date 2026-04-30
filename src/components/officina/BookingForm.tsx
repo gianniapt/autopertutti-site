@@ -31,6 +31,20 @@ export default function BookingForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
+
+    // Fire-and-forget to /api/leads — don't await (don't block WhatsApp opening)
+    fetch("/api/leads", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: form.name,
+        phone: form.phone,
+        email: "non_fornita@officina.web",
+        service: "officina",
+        message: `Prenotazione: ${form.service} — Auto: ${form.car} — Data: ${form.date || "da concordare"} — Note: ${form.note || "nessuna"}`,
+      }),
+    }).catch(() => {}); // never block UX
+
     const msg = encodeURIComponent(
       `🔧 Prenotazione Officina\n\nNome: ${form.name}\nTelefono: ${form.phone}\nAuto: ${form.car}\nServizio: ${form.service}\nData preferita: ${form.date || "Da concordare"}\nNote: ${form.note || "Nessuna"}`
     );

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MapPin, Phone, MessageCircle } from "lucide-react";
+import { MapPin, Phone, MessageCircle, X } from "lucide-react";
 import fleetData from "@/data/rental-fleet.json";
 
 const categories = [
@@ -15,6 +15,9 @@ export default function RentalCalculator() {
   const [days, setDays] = useState(3);
   const [category, setCategory] = useState("city");
   const [extras, setExtras] = useState({ gps: false, insurance: false, driver: false });
+  const [showLeadCapture, setShowLeadCapture] = useState(false);
+  const [rentalLeadData, setRentalLeadData] = useState({ name: "", phone: "" });
+  const [leadSubmitting, setLeadSubmitting] = useState(false);
 
   const baseVehicle = fleetData.find((v) => v.category === category);
   const basePrice = baseVehicle?.pricePerDay ?? 35;
@@ -32,6 +35,50 @@ export default function RentalCalculator() {
   const waMsg = encodeURIComponent(
     `Ciao! Vorrei noleggiare un'auto ${categories.find(c => c.id === category)?.label} per ${days} giorni. Totale stimato: €${total}. Posso prenotare?`
   );
+
+  const openWhatsApp = () => {
+    window.open(`https://wa.me/393791137917?text=${waMsg}`, "_blank");
+  };
+
+  const handleWhatsAppClick = () => {
+    setShowLeadCapture(true);
+  };
+
+  const handleLeadSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!rentalLeadData.name || !rentalLeadData.phone) {
+      return;
+    }
+
+    setLeadSubmitting(true);
+
+    try {
+      await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: rentalLeadData.name,
+          phone: rentalLeadData.phone,
+          email: "non_fornita@noleggio.web",
+          service: "noleggio",
+          message: `Prenotazione noleggio: ${categories.find(c => c.id === category)?.label} per ${days} giorni. Totale: €${total}. Opzioni: GPS=${extras.gps}, Assicurazione=${extras.insurance}, Conducente=${extras.driver}`,
+        }),
+      });
+    } catch (err) {
+      // fire-and-forget, don't block
+    } finally {
+      setLeadSubmitting(false);
+      setRentalLeadData({ name: "", phone: "" });
+      setShowLeadCapture(false);
+      openWhatsApp();
+    }
+  };
+
+  const handleDismissForm = () => {
+    setShowLeadCapture(false);
+    openWhatsApp();
+  };
 
   return (
     <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 lg:p-8 sticky top-24">
@@ -129,15 +176,13 @@ export default function RentalCalculator() {
 
       {/* CTA */}
       <div className="space-y-2">
-        <a
-          href={`https://wa.me/393791137917?text=${waMsg}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-primary flex items-center justify-center gap-2 w-full py-3.5 bg-[#DF0000] text-white font-bold rounded-full"
+        <button
+          onClick={handleWhatsAppClick}
+          className="btn-primary flex items-center justify-center gap-2 w-full py-3.5 bg-[#DF0000] text-white font-bold rounded-full hover:bg-red-700 transition-colors"
         >
           <MessageCircle className="w-5 h-5" />
           Prenota su WhatsApp
-        </a>
+        </button>
         <a
           href="tel:+390815763372"
           className="flex items-center justify-center gap-2 w-full py-3 text-sm text-gray-500 hover:text-[#DF0000] transition-colors"
@@ -146,6 +191,51 @@ export default function RentalCalculator() {
           Oppure chiama 081 576 3372
         </a>
       </div>
+
+      {/* Lead Capture Form Modal */}
+      {showLeadCapture && (
+        <div className="fixed inset-0 bg-black/40 flex items-end z-50">
+          <div className="w-full bg-white rounded-t-2xl p-6 animate-in slide-in-from-bottom-4 duration-300">
+            <div className="flex justify-between items-center mb-4">
+              <h3 className="text-lg font-bold text-[#1A1A1A]">Completa la prenotazione</h3>
+              <button
+                onClick={handleDismissForm}
+                className="text-gray-400 hover:text-gray-600 transition"
+              >
+                <X size={20} />
+              </button>
+            </div>
+            <form onSubmit={handleLeadSubmit} className="space-y-3">
+              <input
+                type="text"
+                placeholder="Nome e Cognome *"
+                value={rentalLeadData.name}
+                onChange={(e) => setRentalLeadData({ ...rentalLeadData, name: e.target.value })}
+                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#DF0000]/30 focus:border-[#DF0000] transition-colors"
+                required
+              />
+              <input
+                type="tel"
+                placeholder="Telefono *"
+                value={rentalLeadData.phone}
+                onChange={(e) => setRentalLeadData({ ...rentalLeadData, phone: e.target.value })}
+                className="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm focus:outline-none focus:ring-2 focus:ring-[#DF0000]/30 focus:border-[#DF0000] transition-colors"
+                required
+              />
+              <button
+                type="submit"
+                disabled={leadSubmitting}
+                className="w-full bg-[#DF0000] text-white px-4 py-3 rounded-full font-bold hover:bg-red-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {leadSubmitting ? "Invio..." : "Continua su WhatsApp"}
+              </button>
+            </form>
+            <p className="text-xs text-gray-400 text-center mt-3">
+              I tuoi dati verranno utilizzati per contattarti entro 30 minuti
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
