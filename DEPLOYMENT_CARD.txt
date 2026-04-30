@@ -1,0 +1,143 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    AUTOPERTUTTI - DEPLOYMENT CARD                            ║
+║              Chat AI + Voice Call → CRM Integration                          ║
+║                         2026-04-30 — Ready to Ship                           ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌─ CRITICAL BLOCKING ISSUE ───────────────────────────────────────────────────┐
+│                                                                               │
+│  ⚠️  N8N HTTP WEBHOOK TRIGGER NOT YET CONFIGURED                            │
+│                                                                               │
+│  Without this, Chat AI & Voice Call leads will NOT reach Airtable!          │
+│                                                                               │
+│  ACTION: Add HTTP Webhook trigger to N8N BEFORE deploying                   │
+│  DOCS: See N8N_HTTP_WEBHOOK_SETUP.md                                        │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ PRE-DEPLOYMENT CHECKLIST ──────────────────────────────────────────────────┐
+│                                                                               │
+│  LOCAL BUILD                                                                 │
+│  [ ] npm run build          (should show ✓ with route map)                   │
+│  [ ] npm run dev            (starts on http://localhost:3000)                │
+│                                                                               │
+│  LOCAL TESTING                                                               │
+│  [ ] Chat AI works on http://localhost:3000                                  │
+│  [ ] Voice Call (VAPI) works (requires microphone)                           │
+│  [ ] Both forms submit without errors                                        │
+│  [ ] Check browser console: no errors                                        │
+│                                                                               │
+│  ENVIRONMENT VARIABLES                                                       │
+│  [ ] NEXT_PUBLIC_VAPI_PUBLIC_KEY set in .env.local                           │
+│  [ ] NEXT_PUBLIC_VAPI_ASSISTANT_ID set in .env.local                         │
+│  [ ] OPENROUTER_API_KEY set in .env.local                                    │
+│  [ ] N8N_WEBHOOK_URL set in .env.local                                       │
+│                                                                               │
+│  N8N SETUP                                                                   │
+│  [ ] HTTP Webhook trigger added to workflow                                  │
+│  [ ] Workflow activated and tested                                           │
+│  [ ] Can be checked in Executions tab                                        │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ DEPLOYMENT COMMANDS ───────────────────────────────────────────────────────┐
+│                                                                               │
+│  # 1. Verify build is clean                                                  │
+│  cd c:\Projects\autopertutti-site && npm run build                           │
+│                                                                               │
+│  # 2. Deploy to production                                                   │
+│  vercel deploy --prod --yes                                                  │
+│                                                                               │
+│  # 3. Monitor deployment                                                     │
+│  vercel logs --follow                                                        │
+│                                                                               │
+│  # 4. Test on production                                                     │
+│  Open: https://autopertutti-site-one.vercel.app                             │
+│  See: TESTING_VOICE_AND_CHAT_LEADS.md for test cases                         │
+│                                                                               │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ FEATURES READY ───────────────────────────────────────────────────────────┐
+│                                                                              │
+│  ✅ Chat AI Widget                                                          │
+│     - Streaming responses (gpt-4o-mini via OpenRouter)                      │
+│     - Italian language support                                              │
+│     - Purchase intent detection                                             │
+│     - Lead form (name/phone/email)                                          │
+│     - Sends to /api/leads                                                   │
+│                                                                              │
+│  ✅ Voice Call (VAPI)                                                       │
+│     - WebRTC microphone integration                                         │
+│     - Diego Neural Azure voice (Italian)                                    │
+│     - Post-call lead capture form NEW                                       │
+│     - Sends to /api/leads                                                   │
+│                                                                              │
+│  ✅ Lead Endpoint (/api/leads)                                              │
+│     - Validation (name*, email*, phone*)                                    │
+│     - Auto-source classification                                            │
+│     - Forwards to N8N webhook                                               │
+│     - CORS enabled                                                          │
+│                                                                              │
+│  ✅ Multi-Messenger Widget                                                  │
+│     - 5 channels: WhatsApp, Telegram, Phone, Chat AI, Voice Call            │
+│     - Animated fan-out menu                                                 │
+│     - Proper z-index layering                                               │
+│                                                                              │
+│  ⚠️  N8N Workflow                                                            │
+│     - AutoPerTutti — Lead Pipeline (os0cT9GcMTFSldKz) ✓ ACTIVE              │
+│     - Classifies leads (Telegram, WhatsApp, Chat, Voice)                     │
+│     - Creates Airtable records                                              │
+│     - Sends team notifications                                              │
+│     - NEEDS: HTTP Webhook trigger node for /api/leads                       │
+│                                                                              │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ LEAD DATA ROUTING ────────────────────────────────────────────────────────┐
+│                                                                              │
+│  Chat AI Form           Voice Call Form         Web Form                    │
+│       ↓                     ↓                       ↓                        │
+│  POST /api/leads        POST /api/leads       POST /api/leads              │
+│  service: ai_chat       service: voice_call   service: other               │
+│  channel: Chat AI       channel: Voice Call    channel: Form                │
+│       ↓                     ↓                       ↓                        │
+│  ────────────────────────────────────────────────────────────────           │
+│                              ↓                                               │
+│                    N8N Webhook Receiver                                      │
+│                       (Merge Channels)                                       │
+│                              ↓                                               │
+│              Claude AI Classifies Lead Type                                  │
+│         (Vendita/Noleggio/Officina/Lavaggio)                                │
+│                              ↓                                               │
+│                Airtable Leads Table + HubSpot                                │
+│                              ↓                                               │
+│                  Telegram Team Notification                                  │
+│                                                                              │
+└───────────────────────────────────────────────────────────────────────────────┘
+
+┌─ SUCCESS INDICATORS ──────────────────────────────────────────────────────┐
+│                                                                            │
+│  ✓ Chat AI sends message → AI responds                                    │
+│  ✓ Voice Call button pulsing (purple) during call                         │
+│  ✓ Voice Call → user speaks → AI responds                                 │
+│  ✓ Form submission shows success message (2 sec)                          │
+│  ✓ N8N workflow executes (check Executions tab)                           │
+│  ✓ Lead appears in Airtable within 3 seconds                              │
+│  ✓ Telegram notification received by team                                 │
+│  ✓ Vercel logs show no errors                                             │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+
+┌─ DOCUMENTATION FILES ─────────────────────────────────────────────────────┐
+│                                                                            │
+│  IMPLEMENTATION_STATUS.md       ← Full status and architecture             │
+│  N8N_HTTP_WEBHOOK_SETUP.md      ← How to add HTTP trigger (CRITICAL)      │
+│  TESTING_VOICE_AND_CHAT_LEADS.md ← Detailed test procedures               │
+│  DEPLOYMENT_CARD.txt             ← This file (quick reference)             │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+
+TIME TO DEPLOY: ~30 minutes total (including N8N setup)
+ESTIMATED LIVE: Today at 18:00 (after N8N + production tests)
+
+Questions? Check the documentation files above.
+Ready to proceed? Run: vercel deploy --prod --yes

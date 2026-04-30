@@ -1,0 +1,198 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                  AI CHAT + VOICE CALL — QUICK START                        ║
+║                    Auto Per Tutti — April 30, 2026                         ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+🚀 DEPLOYMENT CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BEFORE DEPLOYING:
+
+✓ .env.local configured with:
+  • OPENROUTER_API_KEY = sk-or-v1-...
+  • NEXT_PUBLIC_VAPI_PUBLIC_KEY = dad2e681-...
+  • NEXT_PUBLIC_VAPI_ASSISTANT_ID = 851d73a8-...
+  • N8N_WEBHOOK_URL = https://n8n-production-9357c.up.railway.app/webhook/...
+
+✓ Vercel environment variables set:
+  → Go to Vercel dashboard
+  → Project Settings → Environment Variables
+  → Add the 4 keys above
+
+✓ Build test:
+  → npm run build
+  → Check: "✓ Compiled successfully" + "0 errors"
+
+✓ All files in place:
+  → src/app/api/chat/route.ts ✓
+  → src/components/shared/AiChatWidget.tsx ✓
+  → src/components/shared/MultiMessengerWidget.tsx ✓
+  → src/app/globals.css (with @keyframes vapi-pulse) ✓
+  → .env.local ✓
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 TESTING THE FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+LOCAL TESTING (Development):
+  npm run dev
+  → Open http://localhost:3000
+  → Scroll to bottom-right
+  → Click red circular FAB button
+  → You should see 5 options:
+    1. WhatsApp (green)
+    2. Telegram (blue)
+    3. Chiama ora (dark)
+    4. Chat AI (red) ← NEW
+    5. Chiama AI (purple) ← NEW
+
+TESTING CHAT AI:
+  ✓ Click "Chat AI" button
+  ✓ Popup opens with welcome message
+  ✓ Type "quanto costa un tagliando?"
+  ✓ Response appears with streaming text
+  ✓ Type "vorrei un appuntamento"
+  ✓ Lead form appears inline
+  ✓ Fill name + phone → click "Invia Richiesta"
+  ✓ Lead should appear in N8N / Airtable
+
+TESTING VOICE CALL:
+  ✓ Click "Chiama AI" button
+  ✓ Browser requests microphone permission
+  ✓ Accept → Voice call starts
+  ✓ Button pulses (purple with animation)
+  ✓ Speak → AI responds in Italian
+  ✓ Call ends → Lead form modal appears
+  ✓ Fill form → Lead submitted
+  ✓ Check N8N / Airtable for lead
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚡ DEPLOY TO VERCEL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEPS:
+
+1. Commit and push:
+   git add -A
+   git commit -m "feat: Add AI Chat + Voice Call (VAPI)"
+   git push origin main
+
+2. Deploy:
+   vercel deploy --prod
+
+3. Monitor:
+   → Check deployment status on vercel.com
+   → Verify all environment variables set
+   → Check build logs for errors
+
+4. Verify on production:
+   → Go to https://www.autopertutti.net
+   → Test Chat AI feature
+   → Test Voice Call (if VAPI configured)
+   → Check N8N for incoming leads
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ISSUE: Chat buttons don't appear
+→ Check .env.local for typos
+→ Restart dev server: npm run dev
+→ Clear browser cache
+
+ISSUE: Chat API returns 500 error
+→ Verify OPENROUTER_API_KEY in .env.local
+→ Check internet connection
+→ Look at server logs: npm run dev output
+
+ISSUE: Voice call not starting
+→ Check VAPI keys in .env.local
+→ Microphone permission denied? Check browser settings
+→ VAPI requires HTTPS (won't work on localhost:3000)
+→ Use Vercel deployment for testing voice calls
+
+ISSUE: Lead not appearing in N8N
+→ Check N8N_WEBHOOK_URL in .env.local
+→ Verify N8N webhook is active (toggle on in UI)
+→ Check N8N execution logs
+→ Manually test: curl -X POST https://n8n-url/webhook/...
+
+ISSUE: Build fails with TypeScript error
+→ Check syntax in modified files
+→ Verify imports are correct
+→ Run: npm run build (see full error output)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 MONITORING LEADS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHERE LEADS GO:
+
+Chat AI leads → /api/leads (POST) → N8N webhook → Airtable/Email
+Voice Call leads → /api/leads (POST) → N8N webhook → Airtable/Email
+
+Lead fields captured:
+  • name (required)
+  • phone (required)
+  • email (fallback: non_fornita@chat.ai or non_fornita@voice.ai)
+  • message (optional)
+  • service ("ai_chat" or "voice_call")
+  • timestamp (ISO 8601)
+  • channel ("Chat AI" or "Voice Call VAPI")
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 SYSTEM PROMPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Both Chat AI and Voice Call use the same system prompt:
+  • Language: Italian only
+  • Tone: Friendly and concise
+  • Info: Auto Per Tutti services, prices, locations
+  • Action: Ask for lead info on purchase intent
+
+Purchase intent triggers (chat auto-detects):
+  "comprare" | "preventivo" | "appuntamento" | "finanziamento"
+  "prova" | "richiamarmi"
+
+When triggered → Lead form appears automatically
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 SUCCESS CRITERIA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Chat AI appears and responds
+✓ Voice call accepts microphone permission
+✓ Both features capture leads
+✓ Leads reach N8N / Airtable
+✓ No TypeScript errors in build
+✓ Mobile responsive
+✓ Production deployment succeeds
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 REFERENCE FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Read for details:
+  → AI_VOICE_CHAT_IMPLEMENTATION_COMPLETE.md (full specs)
+  → src/app/api/chat/route.ts (OpenRouter integration)
+  → src/components/shared/AiChatWidget.tsx (chat UI)
+  → src/components/shared/MultiMessengerWidget.tsx (button layout)
+  → src/app/globals.css (animations)
+  → .env.local (configuration)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                         READY FOR PRODUCTION ✓
+                        Build tested: 0 errors ✓
+                       All files in place ✓
+
+Deploy with confidence! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

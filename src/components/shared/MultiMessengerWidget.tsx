@@ -44,10 +44,19 @@ const channels = [
   },
 ];
 
+interface VoiceLeadFormData {
+  name: string;
+  phone: string;
+  email: string;
+}
+
 export default function MultiMessengerWidget() {
   const [open, setOpen] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
   const [isVapiActive, setIsVapiActive] = useState(false);
+  const [showVoiceLeadForm, setShowVoiceLeadForm] = useState(false);
+  const [voiceLeadFormData, setVoiceLeadFormData] = useState<VoiceLeadFormData>({ name: "", phone: "", email: "" });
+  const [voiceLeadError, setVoiceLeadError] = useState<string | null>(null);
   const vapiRef = useRef<any>(null);
 
   const handleVoiceCall = async () => {
@@ -65,10 +74,12 @@ export default function MultiMessengerWidget() {
       vapi.on("call-start", () => setIsVapiActive(true));
       vapi.on("call-end", () => {
         setIsVapiActive(false);
+        setShowVoiceLeadForm(true);
         vapiRef.current = null;
       });
       vapi.on("error", () => {
         setIsVapiActive(false);
+        setShowVoiceLeadForm(true);
         vapiRef.current = null;
       });
 
@@ -80,9 +91,103 @@ export default function MultiMessengerWidget() {
     }
   };
 
+  const handleVoiceLeadSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (!voiceLeadFormData.name || !voiceLeadFormData.phone) {
+      setVoiceLeadError("Nome e telefono sono obbligatori");
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/leads", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: voiceLeadFormData.name,
+          email: voiceLeadFormData.email || "non_fornita@voice.ai",
+          phone: voiceLeadFormData.phone,
+          service: "voice_call",
+          message: "Lead da VAPI Voice Call",
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit lead");
+      }
+
+      setShowVoiceLeadForm(false);
+      setVoiceLeadFormData({ name: "", phone: "", email: "" });
+      setVoiceLeadError(null);
+    } catch (err) {
+      setVoiceLeadError("Errore nell'invio. Riprova.");
+    }
+  };
+
   return (
     <>
       <AiChatWidget isOpen={chatOpen} onClose={() => setChatOpen(false)} />
+
+      {/* Voice Call Lead Form Modal */}
+      {showVoiceLeadForm && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/50">
+          <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-sm mx-4">
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">Informazioni di contatto</h2>
+            <p className="text-gray-600 text-sm mb-4">Per completare la richiesta, inserisci i tuoi dati:</p>
+
+            <form onSubmit={handleVoiceLeadSubmit} className="space-y-3">
+              <input
+                type="text"
+                placeholder="Nome *"
+                value={voiceLeadFormData.name}
+                onChange={e => setVoiceLeadFormData({ ...voiceLeadFormData, name: e.target.value })}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#DF0000]"
+                required
+              />
+              <input
+                type="tel"
+                placeholder="Telefono *"
+                value={voiceLeadFormData.phone}
+                onChange={e => setVoiceLeadFormData({ ...voiceLeadFormData, phone: e.target.value })}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#DF0000]"
+                required
+              />
+              <input
+                type="email"
+                placeholder="Email (opzionale)"
+                value={voiceLeadFormData.email}
+                onChange={e => setVoiceLeadFormData({ ...voiceLeadFormData, email: e.target.value })}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-[#DF0000]"
+              />
+
+              {voiceLeadError && (
+                <div className="bg-red-50 border border-red-200 rounded p-2 text-sm text-red-700">
+                  {voiceLeadError}
+                </div>
+              )}
+
+              <button
+                type="submit"
+                className="w-full bg-[#DF0000] text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition"
+              >
+                Invia Richiesta
+              </button>
+
+              <button
+                type="button"
+                onClick={() => {
+                  setShowVoiceLeadForm(false);
+                  setVoiceLeadFormData({ name: "", phone: "", email: "" });
+                  setVoiceLeadError(null);
+                }}
+                className="w-full bg-gray-200 text-gray-800 px-4 py-2 rounded-lg font-semibold hover:bg-gray-300 transition"
+              >
+                Chiudi
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
 
       <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 flex flex-col items-end gap-2.5">
         {open && (
